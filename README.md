@@ -25,3 +25,8 @@ pip install pyautogui pygetwindow pillow
 ## Kullanım
 
 `main.py` dosyasını çalıştırın.
+
+
+## Lisans
+
+MIT Lisansı
