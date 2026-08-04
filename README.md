@@ -75,7 +75,7 @@ Projeyi tek dosyalı `.exe` haline getirmek için PyInstaller kullanılabilir.
 pip install pyinstaller
 ```
 
-### EXE Oluşturma
+### EXE oluşturma:
 
 ```bash
 pyinstaller --onefile --windowed --hidden-import=pyautogui --hidden-import=pygetwindow --hidden-import=PIL --add-data "assets/loading.gif;assets" src/main.py
