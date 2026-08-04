@@ -99,6 +99,8 @@ pyinstaller --onefile --windowed ^
 src/main.py
 ```
 
+Oluşturulan EXE dosyası: `dist/main.exe`
+
 
 
 ## Çalışma Mantığı
