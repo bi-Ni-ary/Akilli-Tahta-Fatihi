@@ -78,7 +78,7 @@ pip install pyinstaller
 ### EXE Oluşturma
 
 ```bash
-pyinstaller --onefile --windowed --hidden-import=pygetwindow --hidden-import=PIL --add-data "assets/loading.gif;assets" main.py
+pyinstaller --onefile --windowed --hidden-import=pyautogui --hidden-import=pygetwindow --hidden-import=PIL --add-data "assets/loading.gif;assets" src/main.py
 ```
 
 
