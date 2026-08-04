@@ -52,15 +52,15 @@ pip install pyautogui pygetwindow pillow
 
 ## Kullanım
 
-Kurulumu tamamladıktan sonra `main.py` dosyasını çalıştırın.
+Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın.
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 komutuyla çalıştırabilirsiniz.
 
-Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+> Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.
 
 
 
