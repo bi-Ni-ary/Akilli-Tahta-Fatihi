@@ -4,7 +4,7 @@ Python ile geliştirilmiş deneysel bir Windows prank/automation yazılımı.
 
 Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
 
-Ni tarafından Windows 10 x64 için geliştirilmiştir.
+Ni (bi-Ni-ary) tarafından Windows 10 x64 için geliştirilmiştir.
 
 Diğer Windows sürümlerinde de büyük ölçüde çalışması beklenmektedir ancak tüm sürümlerde test edilmemiştir.
 
@@ -22,30 +22,29 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 ## Kurulum
 
-### Gerekli kütüphaneler için:
+### Projeyi klonlayın:
+
+```bash
+git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
+cd Akilli-Tahta-Fatihi
+```
+
+### Gerekli kütüphaneleri yükleyin:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Alternatif olarak manuel kurulum:
 
 ```bash
 pip install pyautogui pygetwindow pillow
 ```
 
-veya
-
-```bash
-pip install -r requirements.txt
-```
-
-### Projeyi klonlamak ve gerekli bağımlılıkları yüklemek için:
-
-```bash
-git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
-cd Akilli-Tahta-Fatihi
-pip install -r requirements.txt
-```
-
 
 ## Kullanım
 
-`main.py` dosyasını çalıştırın.
+Kurulumu tamamladıktan sonra `main.py` dosyasını çalıştırın.
 
 
 ## Teknolojiler
@@ -61,4 +60,4 @@ pip install -r requirements.txt
 
 MIT Lisansı
 
-Detaylar için `LICENSE` dosyasına bakabilirsiniz.
+Detaylar için `LICENSE` ve `THIRD_PART_LICENSES.md` dosyalarına bakabilirsiniz.
