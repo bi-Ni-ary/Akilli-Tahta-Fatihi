@@ -4,7 +4,7 @@ Python ile geliştirilmiş deneysel bir Windows prank/automation yazılımı.
 
 Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
 
-Ni (bi-Ni-ary) tarafından Windows 10 x64 için geliştirilmiştir.
+Ni (bi-Ni-ary) tarafından 2025-2026 yıllarında Windows 10 x64 için geliştirilmiştir.
 
 Diğer Windows sürümlerinde de büyük ölçüde çalışması beklenmektedir ancak tüm sürümlerde test edilmemiştir.
 
@@ -118,6 +118,12 @@ Bu eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıd
 - PyAutoGUI
 - PyGetWindow
 - Pillow
+
+
+
+## Telif Hakkı
+
+Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 
 
