@@ -67,10 +67,10 @@ Program belirli aralıklarla bir event seçer ve seçilen eventin olasılığı 
 ### Genome Sistemi
 
 `genome0`:
-- Eventler arasındaki bekleme süresini belirler.
+- Eventler arasındaki bekleme süresinin aralığını belirler.
 
 `genome1`:
-- Her eventin seçilme olasılığını belirler.
+- Her event'in seçilme olasılığını belirler.
 
 Her döngüde sistem:
 1. Belirlenen süre kadar bekler.
@@ -78,7 +78,7 @@ Her döngüde sistem:
 3. Seçilen event'i çalıştırır.
 4. Yeni bir döngüye başlar.
 
-Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden kalıntıdır.
+Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden bir kalıntıdır.
 
 
 ### Eventler
@@ -129,6 +129,6 @@ Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 ## Lisans
 
-MIT Lisansı
+MIT Lisansı ve Üçüncü Parti Lisanslar
 
 Detaylar için `LICENSE` ve `THIRD_PARTY_LICENSES.md` dosyalarına bakabilirsiniz.
