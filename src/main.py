@@ -27,6 +27,9 @@ or any damages caused by improper usage.
 =========================================================
 """
 
+
+
+
 import tkinter as tk
 import pygetwindow as gw
 from tkinter import messagebox
@@ -34,13 +37,21 @@ from PIL import Image, ImageTk
 from threading import Thread
 import subprocess, pyautogui, time, tempfile, random, os, webbrowser
 
+
+
 try:
     root = tk.Tk()
     root.withdraw()
 except:
     pass
 
+
+
+
 typeX = 1
+
+
+
 def createRoot():
     try:
         global root
@@ -48,6 +59,9 @@ def createRoot():
         root.withdraw()
     except:
         pass
+
+
+
     
 try:
     if random.randint(1, 3) != 1:
@@ -60,6 +74,7 @@ except:
     pass
 
 
+
 """
 [>_]
 Akilli-Tahta-Fatihi
@@ -67,6 +82,7 @@ by Ni
 for Win10 x64
 https://github.com/bi-Ni-ary/
 """
+
 
 
 startGenome0 = [8, 30]
@@ -96,6 +112,9 @@ genome1 = [15,                                      #hiç
            60,                                      #oturumdan çık
            1                                        #Ni
             ]
+
+
+
 
 def volumeFull():
     try:
@@ -129,6 +148,7 @@ def closeWindows():
             window.close()
         except:
             pass
+
 
       
 while True:
@@ -439,5 +459,4 @@ while True:
 
     except Exception as e:
         pass
-
 
