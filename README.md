@@ -22,10 +22,24 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 ## Kurulum
 
-Gerekli kütüphaneler:
+### Gerekli kütüphaneler için:
 
 ```bash
 pip install pyautogui pygetwindow pillow
+```
+
+veya
+
+```bash
+pip install -r requirements.txt
+```
+
+### Projeyi klonlaMAK ve gerekli bağımlılıkları yüklemek için:
+
+```bash
+git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
+cd Akilli-Tahta-Fatihi
+pip install -r requirements.txt
 ```
 
 
