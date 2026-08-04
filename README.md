@@ -83,7 +83,20 @@ pip install pyinstaller
 ### EXE oluşturma:
 
 ```bash
-pyinstaller --onefile --windowed --hidden-import=pyautogui --hidden-import=pygetwindow --hidden-import=PIL --hidden-import=PIL.Image --hidden-import=PIL.ImageTk --add-data "assets/loading.gif;assets" src/main.py
+pyinstaller --onefile --windowed ^
+--hidden-import=tkinter ^
+--hidden-import=pyautogui ^
+--hidden-import=pygetwindow ^
+--hidden-import=PIL ^
+--hidden-import=PIL.Image ^
+--hidden-import=PIL.ImageTk ^
+--hidden-import=mouseinfo ^
+--hidden-import=pymsgbox ^
+--hidden-import=pyperclip ^
+--hidden-import=pyscreeze ^
+--hidden-import=pytweening ^
+--add-data "assets/loading.gif;assets" ^
+src/main.py
 ```
 
 
