@@ -1,5 +1,7 @@
 # Akilli-Tahta-Fatihi
 
+> 📌 README Language: Turkish/Türkçe 🇹🇷
+
 Python ile geliştirilmiş deneysel bir Windows prank/automation yazılımı.
 
 Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
