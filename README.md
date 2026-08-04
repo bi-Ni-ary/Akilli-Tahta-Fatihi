@@ -60,6 +60,27 @@ python main.py
 
 komutuyla çalıştırabilirsiniz.
 
+Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+
+
+
+## EXE Oluşturma (PyInstaller)
+
+Projeyi tek dosyalı `.exe` haline getirmek için PyInstaller kullanılabilir.
+
+
+### PyInstaller kurulumu:
+
+```bash
+pip install pyinstaller
+```
+
+### EXE Oluşturma
+
+```bash
+pyinstaller --onefile --windowed --hidden-import=pygetwindow --hidden-import=PIL --add-data "assets/loading.gif;assets" main.py
+```
+
 
 
 ## Çalışma Mantığı
