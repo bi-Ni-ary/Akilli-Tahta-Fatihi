@@ -32,6 +32,11 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
+```
+
+ardından:
+
+```bash
 cd Akilli-Tahta-Fatihi
 ```
 
