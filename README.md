@@ -35,7 +35,7 @@ cd Akilli-Tahta-Fatihi
 pip install -r requirements.txt
 ```
 
-### Alternatif olarak manuel kurulum:
+Alternatif olarak manuel kurulum:
 
 ```bash
 pip install pyautogui pygetwindow pillow
@@ -45,6 +45,12 @@ pip install pyautogui pygetwindow pillow
 ## Kullanım
 
 Kurulumu tamamladıktan sonra `main.py` dosyasını çalıştırın.
+
+```bash
+python main.py
+```
+
+komutuyla çalıştırabilirsiniz.
 
 
 ## Teknolojiler
@@ -60,4 +66,4 @@ Kurulumu tamamladıktan sonra `main.py` dosyasını çalıştırın.
 
 MIT Lisansı
 
-Detaylar için `LICENSE` ve `THIRD_PART_LICENSES.md` dosyalarına bakabilirsiniz.
+Detaylar için `LICENSE` ve `THIRD_PARTY_LICENSES.md` dosyalarına bakabilirsiniz.
