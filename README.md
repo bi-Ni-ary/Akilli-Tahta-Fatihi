@@ -118,7 +118,7 @@ Projede farklı davranış türleri bulunmaktadır:
 - Eğlence amaçlı kullanıcı arayüzleri
 
 
-Hiçbir şey yapmama dahil toplam 24 farklı event vardır.
+"Hiçbir şey yapmama" event'i dahil toplamda `24` farklı event vardır.
 
 
 #### Dikkat Gerektiren Eventler ⚠️
