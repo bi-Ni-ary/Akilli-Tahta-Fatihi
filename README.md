@@ -82,7 +82,7 @@ pip install pyinstaller
 
 ### EXE oluşturma:
 
-```bash
+```cmd
 pyinstaller --onefile --windowed ^
 --hidden-import=tkinter ^
 --hidden-import=pyautogui ^
