@@ -66,7 +66,7 @@ komutuyla çalıştırabilirsiniz.
 
 Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
 
-Program belirli aralıklarla bir event seçer ve seçilen eventin olasılığı `genome` adı verilen listeler üzerinden belirlenir.
+Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
 ### Genome Sistemi
 
