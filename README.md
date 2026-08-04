@@ -34,7 +34,7 @@ veya
 pip install -r requirements.txt
 ```
 
-### Projeyi klonlaMAK ve gerekli bağımlılıkları yüklemek için:
+### Projeyi klonlamak ve gerekli bağımlılıkları yüklemek için:
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
