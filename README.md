@@ -1,17 +1,23 @@
 # Akilli-Tahta-Fatihi
 
-Python ile geliştirilmiş eski tarz bir Windows troll/şaka/rahatsız etme yazılımı.
-Eski okul günlerinden kalma. Lisedeyken akıllı tahtalara atıp hocaları trollemek, dersi kaynatmak, eğlence vs. için kullanırdık. Nostaljik.
+Python ile geliştirilmiş deneysel bir Windows prank/automation yazılımı.
+
+Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
 
 Ni tarafından Windows 10 x64 için geliştirilmiştir.
+
+Diğer Windows sürümlerinde de büyük ölçüde çalışması beklenmektedir ancak tüm sürümlerde test edilmemiştir.
 
 
 ## Uyarı ⚠️
 
-Bu proje rahatsız edici sistem davranışları oluşturabilir.
-Dikkatli kullanılmalıdır.
-Yalnızca kendi cihazlarınızda veya izin verilen ortamlarda test edilmelidir.
-Kullanımdan doğabilecek sorumluluk kullanıcıya aittir.
+Bu proje bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.
+
+- Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
+- Test amacıyla güvenli ortamlarda kullanın.
+- Kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
+
+Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 
 ## Kurulum
@@ -22,11 +28,23 @@ Gerekli kütüphaneler:
 pip install pyautogui pygetwindow pillow
 ```
 
+
 ## Kullanım
 
 `main.py` dosyasını çalıştırın.
 
 
+## Teknolojiler
+
+- Python
+- Tkinter
+- PyAutoGUI
+- PyGetWindow
+- Pillow
+
+
 ## Lisans
 
 MIT Lisansı
+
+Detaylar için `LICENSE` dosyasına bakabilirsiniz.
