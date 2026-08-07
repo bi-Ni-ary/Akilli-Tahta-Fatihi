@@ -130,8 +130,9 @@ Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden 
 
 Toplamda `24` farklı event bulunmaktadır.
 
-- Event ID:
-- Risk Seviyeleri: | 🟢 Güvenli | 🟡 Orta | 🟠 Yüksek | 🔴 Kritik |
+- **Event ID**: Kod içerisindeki `case` değerini temsil eden benzersiz event numarası.
+- **Risk Seviyeleri**: 🟢 Güvenli | 🟡 Orta | 🟠 Yüksek | 🔴 Kritik
+
 
 | Event ID | Risk Seviyesi | Açıklama |
 |---|---|---|
@@ -161,19 +162,7 @@ Toplamda `24` farklı event bulunmaktadır.
 | 23 | 🟢 | `>_ Ni` penceresi açma |
 
 
-#### Dikkat Gerektiren Eventler ⚠️
-
-Bazı eventler sistem üzerinde daha güçlü etkilere sahiptir:
-
-- Bilgisayarı kapatma veya yeniden başlatma  `(case 6, 7, 21)`
-- Pencereleri kapatma  `(case 5, 15)`
-- Explorer işlemleriyle etkileşim  `(case 12)`
-- Klavye/fare kontrolü  `(case 9)`
-- Çok sayıda uygulama açma  `(case 2, 3, 10, 17)`
-- Ekranı değiştiren görsel efektler  `(case 16)`
-
-
-Bu eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.
+**Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
 
 
 
