@@ -105,9 +105,11 @@ Oluşturulan EXE dosyası: `dist/main.exe`
 
 ## Çalışma Mantığı
 
-Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
+- Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
 
-Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
+- Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
+
+- Event seçimi için **Python 3.10**'da gelen `match / case` yapısını kullanır. 
 
 ### Genome Sistemi
 
