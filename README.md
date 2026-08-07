@@ -26,6 +26,14 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 
 
+## Gereksinimler
+
+- `Windows 10` veya `Windows 11` (`64-bit` önerilir)
+- `Python 3.10` veya üzeri
+- Gerekli Python paketleri (`requirements.txt`)
+
+
+
 ## Kurulum
 
 ### Projeyi klonlayın:
