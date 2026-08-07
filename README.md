@@ -133,7 +133,7 @@ Her döngüde sistem:
 3. Seçilen event'i çalıştırır.
 4. Yeni bir döngüye başlar.
 
-Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden bir kalıntıdır.
+*Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden bir kalıntıdır.*
 
 
 ### Eventler
