@@ -1,4 +1,4 @@
-# Akilli-Tahta-Fatihi 🖥️
+# 🖥️ Akilli-Tahta-Fatihi
 
 
 > 📌 README Language: Turkish/Türkçe 🇹🇷
@@ -14,7 +14,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 
 
-## Uyarı ⚠️
+## ⚠️ Uyarı
 
 Bu proje bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.
 
@@ -26,7 +26,7 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 
 
-## Gereksinimler 📋
+## 📋 Gereksinimler
 
 - `Windows 10` veya `Windows 11` (`64-bit` önerilir)
 - `Python 3.10` veya üzeri
@@ -34,7 +34,7 @@ Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
 
 
 
-## Kurulum ⚙️
+## ⚙️ Kurulum
 
 ### Projeyi klonlayın:
 
@@ -63,7 +63,7 @@ pip install pyautogui pygetwindow pillow
 
 
 
-## Kullanım ▶️
+## ▶️ Kullanım
 
 Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın.
 
@@ -77,7 +77,7 @@ komutuyla çalıştırabilirsiniz.
 
 
 
-## EXE Oluşturma (PyInstaller) 📦
+## 📦 EXE Oluşturma (PyInstaller)
 
 Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir.
 
@@ -111,7 +111,7 @@ Oluşturulan **EXE** dosyası: `dist/main.exe`
 
 
 
-## Çalışma Mantığı 🧠
+## 🧠 Çalışma Mantığı
 
 - Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
 
@@ -119,7 +119,7 @@ Oluşturulan **EXE** dosyası: `dist/main.exe`
 
 - Event seçimi için **Python 3.10**'da gelen `match / case` yapısını kullanır. 
 
-### Genome Sistemi 🧬
+### 🧬 Genome Sistemi
 
 `genome0`:
 - Eventler arasındaki bekleme süresinin aralığını belirler.
@@ -136,7 +136,7 @@ Her döngüde sistem:
 *Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden bir kalıntıdır.*
 
 
-### Eventler 🎲
+### 🎲 Eventler
 
 Toplamda `24` farklı event bulunmaktadır.
 
@@ -176,7 +176,7 @@ Toplamda `24` farklı event bulunmaktadır.
 
 
 
-## Teknolojiler 🛠️
+## 🛠️ Teknolojiler
 
 - Python
 - Tkinter
@@ -186,13 +186,13 @@ Toplamda `24` farklı event bulunmaktadır.
 
 
 
-## Telif Hakkı ©️
+## ©️ Telif Hakkı
 
 Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 
 
-## Lisanslar 📜
+## 📜 Lisanslar
 
 **MIT Lisansı** ve **Üçüncü Parti Lisanslar**
 
