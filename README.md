@@ -137,7 +137,7 @@ Toplamda `24` farklı event bulunmaktadır.
 
 
 | Event ID | Risk Seviyesi | Açıklama |
-|---|---|---|
+|:---:|:---:|:---:|
 | 0 | 🟢 | Hiçbir işlem yapmayan boş event |
 | 1 | 🟢 | `Windows Defender`'ı açma |
 | 2 | 🟠 | Çok sayıda `Not Defteri` penceresi açma |
