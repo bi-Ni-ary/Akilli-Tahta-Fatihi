@@ -144,7 +144,7 @@ Toplamda `24` farklı event bulunmaktadır.
 - **Risk Seviyeleri**: 🟢 Güvenli | 🟡 Orta | 🟠 Yüksek | 🔴 Kritik
 
 
-| Event ID | Risk Seviyesi | Açıklama |
+|: Event ID :|: Risk Seviyesi :|: Açıklama :|
 |:---:|:---:|:---|
 | 0 | 🟢 | Hiçbir işlem yapmayan boş event |
 | 1 | 🟢 | `Windows Defender`'ı açma |
