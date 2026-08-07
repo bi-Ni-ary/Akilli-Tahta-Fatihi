@@ -128,17 +128,32 @@ Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden 
 
 ### Eventler
 
-Projede farklı davranış türleri bulunmaktadır:
-
-- Uygulama açma/kapatma davranışları
-- Pencere yönetimi
-- Görsel efektler
-- Klavye ve fare etkileşimleri
-- Sahte sistem ekranları
-- Eğlence amaçlı kullanıcı arayüzleri
-
-
-"Hiçbir şey yapmama" event'i dahil toplamda `24` farklı event vardır.
+| Case No | Event |
+|---|---|
+| 0 | Hiçbir şey yapmayan boş event |
+| 1 | Windows Defender açma |
+| 2 | Çok sayıda Notepad penceresi açma |
+| 3 | Çok sayıda Hesap Makinesi penceresi açma |
+| 4 | Masaüstüne gitme |
+| 5 | Açık olan tüm pencereleri kapatma |
+| 6 | Doğrudan bilgisayarı kapatma |
+| 7 | Bir uyarı mesajı penceresi gösterip ardından bilgisayarı yeniden başlatma |
+| 8 | System32 klasörünü açma |
+| 9 | Ekrana otomatik ve çok sayıda rastgele tıklama yapma |
+| 10 | Aralarında biraz bekleyerek CMD açma |
+| 11 | Tarayıcıda Google veya YouTube açma |
+| 12 | Explorer'ı solandırma |
+| 13 | Ekran yönünü arka arkaya değiştirme |
+| 14 | Arka arkaya hata mesajı pencereleri açma |
+| 15 | Birkaç kez otomatik ve arka arkaya Alt + F4 yaparak pencereleri kapatma |
+| 16 | Ekran görüntüsü alıp açarak ekranı donmuş gibi gösterme |
+| 17 | Çok sayıda Paint penceresi açma |
+| 18 | `Win + Ctrl + Shift +  B` klavye kısayolu ise birkaç kez ekranı karatma |
+| 19 | `Win` tuşunu kullanarak başlat menüsünü bir süre boyunc açıp kapatma |
+| 20 | Windows 10'un güncellenme ekranını taklit edip sonrasında yeinden başlatma |
+| 21 | `Bilgisayarınız kapatılsın mı?` diye sorar ama `Evet` denirse hiçbir şey yapmaz, `Hayır` denirse kapatır | 
+| 22 | Windows Oturumunu kapatma |
+| 23 | İçinde `>_ Ni` yazan bir pencere açma |
 
 
 #### Dikkat Gerektiren Eventler ⚠️
@@ -152,10 +167,6 @@ Bazı eventler sistem üzerinde daha güçlü etkilere sahiptir:
 - Çok sayıda uygulama açma  `(case 2, 3, 10, 17)`
 - Ekranı değiştiren görsel efektler  `(case 16)`
 
-| Event | Case |
-|---|---|
-| Python | İyi |
-| React | Orta |
 
 Bu eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.
 
