@@ -152,6 +152,11 @@ Bazı eventler sistem üzerinde daha güçlü etkilere sahiptir:
 - Çok sayıda uygulama açma  `(case 2, 3, 10, 17)`
 - Ekranı değiştiren görsel efektler  `(case 16)`
 
+| Event | Case |
+|---|---|
+| Python | İyi |
+| React | Orta |
+
 Bu eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.
 
 
