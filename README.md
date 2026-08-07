@@ -128,6 +128,11 @@ Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden 
 
 ### Eventler
 
+Toplamda `24` farklı event bulunmaktadır.
+
+- Event ID:
+- Risk Seviyeleri: | 🟢 Güvenli | 🟡 Orta | 🟠 Yüksek | 🔴 Kritik |
+
 | Event ID | Risk Seviyesi | Açıklama |
 |---|---|---|
 | 0 | 🟢 | Hiçbir işlem yapmayan boş event |
