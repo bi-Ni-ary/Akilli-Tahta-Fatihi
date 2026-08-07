@@ -145,12 +145,12 @@ Projede farklı davranış türleri bulunmaktadır:
 
 Bazı eventler sistem üzerinde daha güçlü etkilere sahiptir:
 
-- Bilgisayarı kapatma veya yeniden başlatma
-- Pencereleri kapatma
-- Explorer işlemleriyle etkileşim
-- Klavye/fare kontrolü
-- Çok sayıda uygulama açma
-- Ekranı değiştiren görsel efektler
+- Bilgisayarı kapatma veya yeniden başlatma  `(case 6, 7, 21)`
+- Pencereleri kapatma  `(case 5, 15)`
+- Explorer işlemleriyle etkileşim  `(case 12)`
+- Klavye/fare kontrolü  `(case 9)`
+- Çok sayıda uygulama açma  `(case 2, 3, 10, 17)`
+- Ekranı değiştiren görsel efektler  `(case 16)`
 
 Bu eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.
 
