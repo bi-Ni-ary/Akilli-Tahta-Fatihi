@@ -157,7 +157,7 @@ Toplamda `24` farklı event bulunmaktadır.
 | 8 | 🟢 | `System32` klasörünü açma |
 | 9 | 🟠 | Ekranda çok sayıda ve rastgele `fare tıklamaları` gerçekleştirme |
 | 10 | 🟡 | Birden fazla `Komut İstemi (CMD)` penceresi açma |
-| 11 | 🟢 | Tarayıcıda `Google`veya `YouTube` açma |
+| 11 | 🟢 | Tarayıcıda `Google` veya `YouTube` açma |
 | 12 | 🟠 | `Windows Explorer` işlemini sonlandırma ve yeniden başlatma |
 | 13 | 🟡 | Ekran yönünü değiştirme |
 | 14 | 🟡 | Hata mesajı pencereleri gösterme |
