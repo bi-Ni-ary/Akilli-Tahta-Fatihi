@@ -117,7 +117,7 @@ Oluşturulan **EXE** dosyası: `dist/main.exe`
 
 - Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
-- Event seçimi için **Python 3.10**'da gelen `match / case` yapısını kullanır. 
+- Event seçimi için **Python 3.10**'da gelen `match / case` yapısını kullanılır. 
 
 ### 🧬 Genome Sistemi
 
