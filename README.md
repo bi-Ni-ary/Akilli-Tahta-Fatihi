@@ -79,7 +79,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## EXE Oluşturma (PyInstaller)
 
-Projeyi tek dosyalı `.exe` haline getirmek için PyInstaller kullanılabilir.
+Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir.
 
 
 ### PyInstaller kurulumu:
