@@ -73,7 +73,7 @@ python src/main.py
 
 komutuyla çalıştırabilirsiniz.
 
-*Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.*
+> Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.*
 
 
 
