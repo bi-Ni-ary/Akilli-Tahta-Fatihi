@@ -167,7 +167,7 @@ Toplamda `24` farklı event bulunmaktadır.
 | 18 | 🟡 | Ekran sürücüsü yenileyerek ekranı karartma |
 | 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma|
 | 20 | 🟠 | `Windows Güncelleştirme` ekranını taklit etme ve yeniden başlatma |
-| 21 | 🔴 | Ters çalışan kapatma onayı penceresi gösterme | 
+| 21 | 🔴 | Seçime göre ters çalışan kapatma onayı penceresi gösterme | 
 | 22 | 🔴 | Windows oturumunu kapatma |
 | 23 | 🟢 | `>_ Ni` penceresi açma |
 
