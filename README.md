@@ -194,6 +194,6 @@ Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 ## Lisanslar
 
-MIT Lisansı ve Üçüncü Parti Lisanslar
+**MIT Lisansı** ve **Üçüncü Parti Lisanslar**
 
 Detaylar için `LICENSE` ve `THIRD_PARTY_LICENSES.md` dosyalarına bakabilirsiniz.
