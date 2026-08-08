@@ -190,9 +190,9 @@ parametresini kullanabilirsiniz.
 
 - Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
 
-- Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
+- Program belirli aralıklarla bir event seçer ve her eventin seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
-- Eventler'in çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.. 
+- Eventlerin çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.
 
 
 ### 🧬 Genome Sistemi
@@ -201,12 +201,12 @@ parametresini kullanabilirsiniz.
 - Eventler arasındaki **bekleme süresinin aralığını** belirler.
 
 `genome1`:
-- Her event'in **seçilme olasılığını** belirler.
+- Her eventin **seçilme olasılığını** belirler.
 
 Her döngüde sistem:
 1. Belirlenen süre kadar bekler.
 2. Olasılık değerlerine göre bir event seçer.
-3. Seçilen event'i çalıştırır.
+3. Seçilen eventi çalıştırır.
 4. Yeni bir döngüye başlar.
 
 *Bu yapı, projenin ilk fikri olan evrimsel davranış simülasyonu konseptinden bir kalıntıdır.*
@@ -269,7 +269,7 @@ korumak amaçlanmaktadır.
 - PyAutoGUI
 - PyGetWindow
 - Pillow
-- PyInstaller &ensp; *(Opsiyonel, yanlızca **EXE** oluşturmak için)*
+- PyInstaller &ensp; *(Opsiyonel, yalnızca **EXE** oluşturmak için)*
 
 
 
@@ -281,6 +281,6 @@ Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 ## 📜 Lisanslar
 
-**MIT Lisansı** ve **Üçüncü Parti Lisanslar**
+- Bu proje **MIT Lisansı** altında yayımlanmakatır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
 
-Detaylar için `LICENSE` ve `THIRD_PARTY_LICENSES.md` dosyalarına bakabilirsiniz.
+- Kullanılan üçüncü parti kütüphanelerin lisans bilgileri için: `THIRD_PARTY_LICENSES.md` dosyasına bakabilirsiniz.
