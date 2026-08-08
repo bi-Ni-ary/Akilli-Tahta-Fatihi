@@ -27,6 +27,22 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 
 
+## 🔒 Gizlilik ve Ağ Kullanımı
+
+Bu proje herhangi bir kullanıcı verisi toplamak, kaydetmek
+veya uzak bir sunucuya göndermek amacıyla **tasarlanmamıştır**.
+
+Programın ağ ile gerçekleştirdiği tek kullanıcıya görünür işlem,
+ilgili event tetiklendiğinde `Google` veya `YouTube`'u varsayılan
+tarayıcıda açmaktır.
+
+Programın kendi içerisinde bir veri toplama, telemetri veya
+uzak sunucuya veri gönderme mekanizması **bulunmamaktadır**.
+
+Kullanıcı dosyalarına erişilmez, kişisel bilgiler toplanmaz, arka planda veri gönderimi yapılmaz, herhangi bir takip veya analiz sistemi bulunmaz.
+
+
+
 ## 📋 Gereksinimler
 
 - `Windows 10` veya `Windows 11` (`64-bit` önerilir)
@@ -101,7 +117,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Proje **Windows'da Python olmadan çalışabilmesi için** tek dosyalı `.exe` haline getirilebilir. Bunun için `PyInstaller` kullanılabilir.
+Proje **Windows'ta Python olmadan çalışabilmesi için** tek dosyalı `.exe` haline getirilebilir. Bunun için `PyInstaller` kullanılabilir.
 
 
 ### PyInstaller kurulumu:
@@ -164,7 +180,8 @@ parametresini kullanabilirsiniz.
 
 - Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
-- Event seçimi için **Python 3.10**'da gelen `match / case` yapısı kullanılır. 
+- Eventler'in çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.. 
+
 
 ### 🧬 Genome Sistemi
 
@@ -197,7 +214,7 @@ Toplamda `24` farklı event bulunmaktadır.
 | 1 | 🟢 | `Windows Defender`'ı açma |
 | 2 | 🟠 | Çok sayıda `Not Defteri` penceresi açma |
 | 3 | 🟠 | Çok sayıda `Hesap Makinesi` penceresi açma |
-| 4 | 🟡 | Masaüstüne geçme |
+| 4 | 🟡 | Açık pencereleri küçültüp **masaüstüne geçme**|
 | 5 | 🟠 | Açık pencereleri kapatma |
 | 6 | 🔴 | Bilgisayarı **doğrudan kapatma** |
 | 7 | 🔴 | Uyarı mesajı gösterip bilgisayarı **yeniden başlatma** |
@@ -211,11 +228,11 @@ Toplamda `24` farklı event bulunmaktadır.
 | 15 | 🟠 | `Alt + F4` ile pencereleri kapatma |
 | 16 | 🟡 | Ekran görüntüsü alıp **sahte donmuş ekran efekti** oluşturma |
 | 17 | 🟠 | Çok sayıda `Paint` penceresi açma |
-| 18 | 🟡 | Ekran sürücüsü yenileyerek **ekranı karartma** |
-| 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma|
+| 18 | 🟡 | Ekran sürücüsünü yenileyerek **kısa süreli görüntü kesintisi** oluşturma |
+| 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma |
 | 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** |
-| 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme | 
-| 22 | 🔴 | `Windows oturumun`u kapatma |
+| 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme **(`Hayır` seçilirse bilgisayar kapanır)** | 
+| 22 | 🔴 | `Windows oturumu`nu kapatma |
 | 23 | 🟢 | `>_ Ni` penceresi açma |
 
 
