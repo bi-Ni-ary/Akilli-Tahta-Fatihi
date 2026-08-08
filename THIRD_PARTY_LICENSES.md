@@ -1,5 +1,11 @@
 # Third Party Licenses
 
+This file contains third-party software licenses
+used by `Akilli-Tahta-Fatihi`.
+
+The project's own license is provided separately
+in the `LICENSE` file.
+
 
 
 
@@ -57,6 +63,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 - **License:** BSD
 - **Copyright:** Al Sweigart  (2015)
 - **Source:** https://github.com/asweigart/pygetwindow/blob/master/LICENSE.txt
+
+
+*PyInstaller is used only as a packaging tool to
+convert the Python application into an executable
+format.*
+
+*It is not part of the application's runtime logic
+and is only used during the build process.*
 
 
 ```text
