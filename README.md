@@ -158,7 +158,7 @@ src/main.py
 
 Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
 
->
+&nbsp;
 
 #### Komut Açıklamaları
 
