@@ -281,6 +281,6 @@ Copyright (c) 2025-2026 Ni (bi-Ni-ary)
 
 ## 📜 Lisanslar
 
-- Bu proje **MIT Lisansı** altında yayımlanmakatır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
+Bu proje **MIT Lisansı** altında yayımlanmaktadır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
 
-- Kullanılan üçüncü parti kütüphanelerin lisans bilgileri için: `THIRD_PARTY_LICENSES.md` dosyasına bakabilirsiniz.
+Kullanılan üçüncü parti kütüphanelerin lisans bilgileri için: `THIRD_PARTY_LICENSES.md` dosyasına bakabilirsiniz.
