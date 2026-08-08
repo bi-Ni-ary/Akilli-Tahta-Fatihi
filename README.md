@@ -24,7 +24,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 - Test amacıyla güvenli ortamlarda kullanın.
 - Kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
 
-Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.
+**Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.**
 
 
 
@@ -57,7 +57,7 @@ cd Akilli-Tahta-Fatihi
 pip install -r requirements.txt
 ```
 
-Alternatif olarak manuel kurulum:
+Alternatif olarak manuel şekilde yükleyim:
 
 ```bash
 pip install pyautogui pygetwindow pillow
@@ -81,7 +81,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir.
+Proje **Windows'da Python olmadan çalışabilmesi için** tek dosyalı `.exe` haline getirilebilir. Bunun için `PyInstaller` kullanılabilir.
 
 
 ### PyInstaller kurulumu:
@@ -179,7 +179,7 @@ Toplamda `24` farklı event bulunmaktadır.
 
 ## 🏛️ Proje Durumu
 
-Bu proje, 2025 yılında geliştirilmiş deneysel bir projedir.
+Bu proje, **2025 yılında** geliştirilmiş **deneysel** bir projedir.
 
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
