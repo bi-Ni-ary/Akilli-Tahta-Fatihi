@@ -115,7 +115,7 @@ komutuyla çalıştırabilirsiniz.
 2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin.
 3. **Görevi sonlandır** seçeneğini kullanın
 
-> Çoğu durumda sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak büyük ihtimalle işe yarayacaktır.
+> Sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak iki durumda da ve farklı durumlarda da büyük ihtimalle işe yarayacaktır.
 
 
 
