@@ -164,14 +164,14 @@ Toplamda `24` farklı event bulunmaktadır.
 
 | Event ID | Risk Seviyesi | Açıklama |
 |:---:|:---:|:---|
-| 0 | 🟢 | Hiçbir işlem yapmayan boş event |
+| 0 | 🟢 | Hiçbir işlem yapmayan **boş** event |
 | 1 | 🟢 | `Windows Defender`'ı açma |
 | 2 | 🟠 | Çok sayıda `Not Defteri` penceresi açma |
 | 3 | 🟠 | Çok sayıda `Hesap Makinesi` penceresi açma |
 | 4 | 🟡 | Masaüstüne geçme |
 | 5 | 🟠 | Açık pencereleri kapatma |
-| 6 | 🔴 | Bilgisayarı doğrudan kapatma |
-| 7 | 🔴 | Uyarı mesajı gösterip bilgisayarı yeniden başlatma |
+| 6 | 🔴 | Bilgisayarı **doğrudan kapatma** |
+| 7 | 🔴 | Uyarı mesajı gösterip bilgisayarı **yeniden başlatma** |
 | 8 | 🟢 | `System32` klasörünü açma |
 | 9 | 🟠 | Ekranda çok sayıda ve rastgele `fare tıklamaları` gerçekleştirme |
 | 10 | 🟡 | Birden fazla `Komut İstemi (CMD)` penceresi açma |
@@ -184,9 +184,9 @@ Toplamda `24` farklı event bulunmaktadır.
 | 17 | 🟠 | Çok sayıda `Paint` penceresi açma |
 | 18 | 🟡 | Ekran sürücüsü yenileyerek **ekranı karartma** |
 | 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma|
-| 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve yeniden başlatma |
+| 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** |
 | 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme | 
-| 22 | 🔴 | Windows oturumunu kapatma |
+| 22 | 🔴 | `Windows oturumun`u kapatma |
 | 23 | 🟢 | `>_ Ni` penceresi açma |
 
 
