@@ -3,7 +3,7 @@
 
 > 📌 README Language: Turkish/Türkçe 🇹🇷
 
----
+___
 
 **Python** ile geliştirilmiş deneysel bir **Windows prank/automation** yazılımı.
 
