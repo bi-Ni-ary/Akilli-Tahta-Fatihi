@@ -165,7 +165,7 @@ Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
 |:---:|:---|
 | `--onefile` | Tüm dosyaları tek bir `.exe` içerisinde toplar |
 | `--windowed` | Konsol penceresi açmadan çalıştırır |
-| `--name` | Oluşturulacak `.exe` dosyasının dosya adını belirler. **İstenirse farklı ad koyulabilir.** |
+| `--name` | Oluşturulacak `.exe` dosyasının dosya adını belirler. **İstenirse farklı ad verilebilir.** |
 | `--hidden-import` | `PyInstaller`'ın otomatik algılayamadığı paketleri dahil eder |
 | `--add-data` | Harici dosyaları *(ör. GIF vb.*) `EXE` içine ekler |
 | `src/main.py` | Ana `Python` dosyasını belirtir |
