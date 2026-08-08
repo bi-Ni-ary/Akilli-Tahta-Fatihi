@@ -65,14 +65,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 - **Source:** https://github.com/asweigart/pygetwindow/blob/master/LICENSE.txt
 
 
-*PyInstaller is used only as a packaging tool to
-convert the Python application into an executable
-format.*
-
-*It is not part of the application's runtime logic
-and is only used during the build process.*
-
-
 ```text
 Copyright (c) 2015, Al Sweigart
 All rights reserved.
@@ -151,6 +143,14 @@ PERFORMANCE OF THIS SOFTWARE.
 - **License:** GPL-2.0-or-later with Bootloader Exception
 - **Copyright:** PyInstaller Development Team
 - **Source:** https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+
+
+*PyInstaller is used only as a packaging tool to
+convert the Python application into an executable
+format.*
+
+*It is not part of the application's runtime logic
+and is only used during the build process.*
 
 
 
