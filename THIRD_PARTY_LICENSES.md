@@ -144,6 +144,7 @@ PERFORMANCE OF THIS SOFTWARE.
 - **Copyright:** PyInstaller Development Team
 - **Source:** https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
 
+&nbsp;
 
 *PyInstaller is used only as a packaging tool to
 convert the Python application into an executable
