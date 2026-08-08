@@ -114,6 +114,7 @@ pip install pyinstaller
 
 ```cmd
 pyinstaller --onefile --windowed ^
+--name Akilli-Tahta-Fatihi ^
 --hidden-import=tkinter ^
 --hidden-import=pyautogui ^
 --hidden-import=pygetwindow ^
@@ -129,7 +130,31 @@ pyinstaller --onefile --windowed ^
 src/main.py
 ```
 
-Oluşturulan **EXE** dosyası: `dist/main.exe`
+Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
+
+
+#### Komut Açıklamaları
+
+| Parametre | Açıklama |
+|:---:|:---|
+| `--onefile` | Tüm dosyaları tek bir `.exe` içerisinde toplar |
+| `--windowed` | Konsol penceresi açmadan çalıştırır |
+| `--name` | Oluşturulacak .exe dosyasının dosya adını belirler. **İstenirse farklı ad koyulabilir.** |
+| `--hidden-import` | `PyInstaller`'ın otomatik algılayamadığı paketleri dahil eder |
+| `--add-data` | Harici dosyaları (ör. GIF) **EXE** içine ekler |
+| `src/main.py` | Ana `Python` dosyasını belirtir |
+
+
+#### İkon Ekleme (Opsiyonel)
+
+Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına ikon eklemek için:
+
+```cmd
+--icon "assets/icon.ico"
+```
+
+parametresini kullanabilirsiniz. 
+**`"assets/icon.ico"` yerine `.ico` dosyasının konumunu yazınız.**
 
 
 
