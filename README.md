@@ -82,7 +82,7 @@ cd Akilli-Tahta-Fatihi
 pip install -r requirements.txt
 ```
 
-Alternatif olarak kütüphaneleri manuel şekilde yükleme:
+Alternatif olarak kütüphaneleri manuel şekilde de yükleyebilirsiniz:
 
 ```bash
 pip install pyautogui pygetwindow pillow
@@ -109,13 +109,13 @@ komutuyla çalıştırabilirsiniz.
 - `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
 
-### EXE dosyası üzerinden çalıştırıldıysa
+### EXE dosyası üzerinden çalıştırıldıysa:
 
 1. **Görev Yöneticisi**ni açın. (`CTRL + SHIFT + ESC`)
 2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin.
 3. **Görevi sonlandır** seçeneğini kullanın
 
-> **Görev Yöneticisi**nden ilgili görevi veya görevleri sonlandırmak daima işe yarayacaktır.
+> Sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak çoğu zaman işe yarayacaktır.
 
 
 
