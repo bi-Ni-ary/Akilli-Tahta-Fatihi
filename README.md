@@ -140,10 +140,10 @@ Oluşturulan **EXE** dosyası: `dist/main.exe`
 ### 🧬 Genome Sistemi
 
 `genome0`:
-- Eventler arasındaki bekleme süresinin aralığını belirler.
+- Eventler arasındaki **bekleme süresinin aralığını** belirler.
 
 `genome1`:
-- Her event'in seçilme olasılığını belirler.
+- Her event'in **seçilme olasılığını** belirler.
 
 Her döngüde sistem:
 1. Belirlenen süre kadar bekler.
