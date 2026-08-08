@@ -127,7 +127,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Proje **Windows'ta Python olmadan çalışabilmesi için** tek dosyalı `.exe` haline getirilebilir. Bunun için `PyInstaller` kullanılabilir.
+Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir.
 
 
 ### PyInstaller kurulumu:
@@ -267,7 +267,7 @@ korumak amaçlanmaktadır.
 - PyAutoGUI
 - PyGetWindow
 - Pillow
-- PyInstaller
+- PyInstaller &ensp; *(Opsiyonel, yanlızca **EXE** oluşturmak için)*
 
 
 
