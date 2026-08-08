@@ -57,7 +57,7 @@ cd Akilli-Tahta-Fatihi
 pip install -r requirements.txt
 ```
 
-Alternatif olarak manuel şekilde yükleyim:
+Alternatif olarak manuel şekilde yükleme:
 
 ```bash
 pip install pyautogui pygetwindow pillow
