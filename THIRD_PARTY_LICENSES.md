@@ -3,7 +3,7 @@
 
 
 
-## PyAutoGUI
+## PyAutoGUI &ensp; (`pyautogui`)
 
 - **License:** BSD 3-Clause
 - **Copyright:** Al Sweigart  (2014)
@@ -42,7 +42,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-## PyGetWindow
+## PyGetWindow (gw) &ensp; (`pygetwindow`)
 
 - **License:** BSD
 - **Copyright:** Al Sweigart  (2015)
@@ -81,7 +81,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-## Pillow
+## Pillow &ensp; (`PIL`, `PIL.Image`, `PIL.ImageTk`)
 
 - **License:** HPND (MIT-CMU Variant)
 - **Copyright:** Jeffrey 'Alex' Clark, Secret Labs AB, Fredrik Lundh, ...  (1995 - 2010)
@@ -132,7 +132,7 @@ PERFORMANCE OF THIS SOFTWARE.
 The following modules are part of the Python Standard Library and are distributed under the Python Software Foundation (PSF) License:
 
 - **Tkinter** (`tkinter`, `tkinter.messagebox`)
-- **Threading** (`threading`)
+- **Threading** (`threading`, `threading.Thread`)
 - **Subprocess** (`subprocess`)
 - **Time** (`time`)
 - **Tempfile** (`tempfile`)
