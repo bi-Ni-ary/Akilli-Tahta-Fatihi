@@ -8,7 +8,6 @@
 **Python** ile geliştirilmiş deneysel bir **Windows prank/automation** yazılımı.
 
 Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
-&nbsp;
 
 
 *Ni (bi-Ni-ary) tarafından 2025-2026 yıllarında **Windows 10 x64** için geliştirilmiştir.*
