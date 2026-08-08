@@ -122,6 +122,13 @@ PERFORMANCE OF THIS SOFTWARE.
 ```
 
 
+## PyInstaller
+
+- **License:** GPL-2.0-or-later with Bootloader Exception
+- **Copyright:** PyInstaller Development Team
+- **Source:** https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+
+
 
 ---
 
@@ -139,5 +146,6 @@ The following modules are part of the Python Standard Library and are distribute
 - **Random** (`random`)
 - **OS** (`os`)
 - **Webbrowser** (`webbrowser`)
+
 
 *Python License Details:* https://docs.python.org/3/license.html
