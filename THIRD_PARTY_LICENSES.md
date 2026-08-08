@@ -40,6 +40,16 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
+### Dependencies
+
+**PyAutoGUI** uses or may include the following related packages:
+
+- PyMsgBox (`pymsgbox`)
+- PyScreeze (`pyscreeze`)
+- PyTweening (`pytweening`)
+- Pyperclip (`pyperclip`)
+- MouseInfo (`mouseinfo`)
+
 
 
 ## PyGetWindow (gw) &ensp; (`pygetwindow`)
