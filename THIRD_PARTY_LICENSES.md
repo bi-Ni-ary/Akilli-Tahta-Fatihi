@@ -131,7 +131,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 The following modules are part of the Python Standard Library and are distributed under the Python Software Foundation (PSF) License:
 
-- **Tkinter** (`tkinter`, `tkinter.messagebox`)
+- **Tkinter (tk)** (`tkinter`, `tkinter.messagebox`)
 - **Threading** (`threading`, `threading.Thread`)
 - **Subprocess** (`subprocess`)
 - **Time** (`time`)
