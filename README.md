@@ -85,7 +85,7 @@ komutuyla çalıştırabilirsiniz.
 ### EXE dosyası üzerinden çalıştırıldıysa
 
 1. **Görev Yöneticisi**ni açın. (`CTRL + SHIFT + ESC`)
-2. İlgili işlemi *(Akilli-Tahta-Fatihi.exe, Python)* bulun ve seçin.
+2. İlgili işlemi `(Akilli-Tahta-Fatihi.exe, Python)` bulun ve seçin.
 3. **Görevi sonlandır** seçeneğini kullanın
 
 
