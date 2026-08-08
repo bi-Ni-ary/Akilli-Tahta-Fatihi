@@ -10,7 +10,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 *Ni (bi-Ni-ary) tarafından 2025-2026 yıllarında Windows 10 x64 için geliştirilmiştir.*
 
-*Diğer Windows sürümlerinde de büyük ölçüde çalışması beklenmektedir ancak tüm sürümlerde test edilmemiştir.*
+*Diğer Windows sürümlerinde de büyük ölçüde çalışması beklenmektedir **ancak tüm sürümlerde test edilmemiştir.***
 
 
 
@@ -117,7 +117,7 @@ Oluşturulan **EXE** dosyası: `dist/main.exe`
 
 - Program belirli aralıklarla bir event seçer ve her event'in seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
-- Event seçimi için **Python 3.10**'da gelen `match / case` yapısını kullanılır. 
+- Event seçimi için **Python 3.10**'da gelen `match / case` yapısı kullanılır. 
 
 ### 🧬 Genome Sistemi
 
@@ -158,21 +158,31 @@ Toplamda `24` farklı event bulunmaktadır.
 | 9 | 🟠 | Ekranda çok sayıda ve rastgele `fare tıklamaları` gerçekleştirme |
 | 10 | 🟡 | Birden fazla `Komut İstemi (CMD)` penceresi açma |
 | 11 | 🟢 | Tarayıcıda `Google` veya `YouTube` açma |
-| 12 | 🟠 | `Windows Explorer` işlemini sonlandırma ve yeniden başlatma |
-| 13 | 🟡 | Ekran yönünü değiştirme |
-| 14 | 🟡 | Hata mesajı pencereleri gösterme |
+| 12 | 🟠 | `Windows Explorer` işlemini **sonlandırma** ve **yeniden başlatma** |
+| 13 | 🟡 | Ekran yönünü değiştirerek **döndürme** |
+| 14 | 🟡 | **Sahte hata mesajı** pencereleri gösterme |
 | 15 | 🟠 | `Alt + F4` ile pencereleri kapatma |
-| 16 | 🟡 | Ekran görüntüsü alıp sahte donmuş ekran efekti oluşturma |
+| 16 | 🟡 | Ekran görüntüsü alıp **sahte donmuş ekran efekti** oluşturma |
 | 17 | 🟠 | Çok sayıda `Paint` penceresi açma |
-| 18 | 🟡 | Ekran sürücüsü yenileyerek ekranı karartma |
+| 18 | 🟡 | Ekran sürücüsü yenileyerek **ekranı karartma** |
 | 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma|
 | 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve yeniden başlatma |
-| 21 | 🔴 | Seçime göre ters çalışan kapatma onayı penceresi gösterme | 
+| 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme | 
 | 22 | 🔴 | Windows oturumunu kapatma |
 | 23 | 🟢 | `>_ Ni` penceresi açma |
 
 
 **Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
+
+
+## 🏛️ Proje Durumu
+
+Bu proje, 2025 yılında geliştirilmiş deneysel bir projedir.
+
+Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
+korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
+yerine projenin orijinal yapısını ve çalışma mantığını
+korumak amaçlanmaktadır.
 
 
 
