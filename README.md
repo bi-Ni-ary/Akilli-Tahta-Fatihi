@@ -1,7 +1,5 @@
 # 🖥️ Akilli-Tahta-Fatihi
 
-&nbsp;
-
 > 📌 README Language: Turkish/Türkçe 🇹🇷
 
 &nbsp;
@@ -93,7 +91,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## 📸 Demo
 
-**(YAKINDA GELECEK)**
+*(yakında gelecek)*
 
 
 
