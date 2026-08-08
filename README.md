@@ -91,7 +91,7 @@ komutuyla çalıştırabilirsiniz.
 
 ## 📸 Demo
 
-*(yakında gelecek)*
+*(YAKINDA GELECEK)*
 
 
 
