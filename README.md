@@ -29,17 +29,27 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 ## 🔒 Gizlilik ve Ağ Kullanımı
 
-Bu proje herhangi bir kullanıcı verisi toplamak, kaydetmek
-veya uzak bir sunucuya göndermek amacıyla **tasarlanmamıştır**.
+Bu proje herhangi bir kullanıcı verisi **toplamaz**, **kaydetmez**
+ve herhangi bir uzak sunucuya **göndermez.**
 
-Programın ağ ile gerçekleştirdiği tek kullanıcıya görünür işlem,
-ilgili event tetiklendiğinde `Google` veya `YouTube`'u varsayılan
-tarayıcıda açmaktır.
+Programın normal çalışma mantığında herhangi bir ağ
+iletişimi **bulunmamaktadır.**
 
-Programın kendi içerisinde bir veri toplama, telemetri veya
-uzak sunucuya veri gönderme mekanizması **bulunmamaktadır**.
+Bazı eventler kullanıcı deneyimi amacıyla internet
+tarayıcısını açabilir. Bu durumda internet erişimi,
+yalnızca ilgili event tetiklendiğinde `Google` veya `YouTube`
+gibi servisleri varsayılan tarayıcı üzerinden açmak için
+kullanılır.
 
-Kullanıcı dosyalarına erişilmez, kişisel bilgiler toplanmaz, arka planda veri gönderimi yapılmaz, herhangi bir takip veya analiz sistemi bulunmaz.
+Bunun dışında:
+
+- Kullanıcı dosyaları **okunmaz** veya **değiştirilmez.**
+- Kişisel bilgiler **toplanmaz.**
+- Arka planda veri gönderimi **yapılmaz.**
+- Takip, analiz veya telemetri sistemi **bulunmaz.**
+
+Programın gerçekleştirdiği sistem etkileşimleri **yalnızca
+kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 
 
