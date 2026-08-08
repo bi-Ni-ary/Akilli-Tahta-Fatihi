@@ -240,6 +240,7 @@ korumak amaçlanmaktadır.
 - PyAutoGUI
 - PyGetWindow
 - Pillow
+- PyInstaller
 
 
 
