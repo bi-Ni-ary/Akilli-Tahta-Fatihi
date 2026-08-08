@@ -57,7 +57,7 @@ cd Akilli-Tahta-Fatihi
 pip install -r requirements.txt
 ```
 
-Alternatif olarak manuel şekilde yükleme:
+Alternatif olarak kütüphaneleri manuel şekilde yükleme:
 
 ```bash
 pip install pyautogui pygetwindow pillow
@@ -76,6 +76,21 @@ python src/main.py
 komutuyla çalıştırabilirsiniz.
 
 > Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+
+
+## ⏹️ Durdurma
+
+### Terminal üzerinden Python formatında çalıştırıldıysa:
+```bash
+CTRL + C
+```
+ile işlemi sonlandırabilir veya **terminali kapatabilirsiniz.**
+
+### Dosya üzerinden çalıştırıldıysa
+
+1. **Görev Yöneticisi**ni açın. (`CTRL + SHIFT + ESC`)
+2. İlgili işlemi bulun ve seçin.
+3. **Görevi sonlandır** seçeneğini kullanın
 
 
 
