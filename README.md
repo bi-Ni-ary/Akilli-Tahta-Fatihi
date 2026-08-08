@@ -1,5 +1,6 @@
 # 🖥️ Akilli-Tahta-Fatihi
 
+&nbsp;
 
 > 📌 README Language: Turkish/Türkçe 🇹🇷
 
