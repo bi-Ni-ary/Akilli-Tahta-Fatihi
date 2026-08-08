@@ -195,7 +195,7 @@ Toplamda `24` farklı event bulunmaktadır.
 
 ## 🏛️ Proje Durumu
 
-Bu proje, **2025 yılında** geliştirilmiş **deneysel** bir projedir.
+Bu proje, **2025 yılında** geliştirilmiş deneysel ve önceden eğlence amaçlı kullanılan nostaljik bir projedir.
 
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
