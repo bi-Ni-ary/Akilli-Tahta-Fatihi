@@ -81,16 +81,18 @@ komutuyla çalıştırabilirsiniz.
 ## ⏹️ Durdurma
 
 ### Terminal üzerinden Python formatında çalıştırıldıysa:
-```bash
-CTRL + C
-```
-ile işlemi sonlandırabilir veya **terminali kapatabilirsiniz.**
+`CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
-### Dosya üzerinden çalıştırıldıysa
+### EXE dosyası üzerinden çalıştırıldıysa
 
 1. **Görev Yöneticisi**ni açın. (`CTRL + SHIFT + ESC`)
-2. İlgili işlemi bulun ve seçin.
+2. İlgili işlemi (Akilli-Tahta-Fatihi.exe, Python) bulun ve seçin.
 3. **Görevi sonlandır** seçeneğini kullanın
+
+
+## 📸 Demo
+
+**(YAKINDA GELECEK)**
 
 
 
