@@ -75,7 +75,7 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 Projeyi iki farklı yöntemle indirebilirsiniz.
 
 
-### Yöntem A - &ensp; `Git` ile projeyi klonlayın (geliştiriciler için):
+### A. `Git` ile projeyi klonlayın (geliştiriciler için):
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
@@ -88,7 +88,7 @@ cd Akilli-Tahta-Fatihi
 ```
 
 
-### Yöntem B - &ensp; `ZIP` indirerek kurulum (normal kullanıcılar için):
+### B. `ZIP` indirerek kurulum (normal kullanıcılar için):
 
 1. `GitHub` sayfasından `Code → Download ZIP` seçeneğiyle projeyi indirin.
 2. `ZIP` dosyasını çıkarın.
@@ -245,15 +245,15 @@ Toplamda `24` farklı event bulunmaktadır.
 | 2 | 🟠 | Çok sayıda `Not Defteri` penceresi açma |
 | 3 | 🟠 | Çok sayıda `Hesap Makinesi` penceresi açma |
 | 4 | 🟡 | Açık pencereleri küçültüp **masaüstüne geçme**|
-| 5 | 🟠 | Açık pencereleri kapatma |
+| 5 | 🟠 | Açık pencereleri **kapatma** |
 | 6 | 🔴 | Bilgisayarı **doğrudan kapatma** |
 | 7 | 🔴 | Uyarı mesajı gösterip bilgisayarı **yeniden başlatma** |
 | 8 | 🟢 | `System32` klasörünü açma |
-| 9 | 🟠 | Ekranda çok sayıda ve rastgele `fare tıklamaları` gerçekleştirme |
+| 9 | 🟠 | Ekranda çok sayıda ve rastgele **fare tıklamaları** gerçekleştirme |
 | 10 | 🟡 | Birden fazla `Komut İstemi (CMD)` penceresi açma |
 | 11 | 🟢 | Tarayıcıda `Google` veya `YouTube` açma |
 | 12 | 🟠 | `Windows Explorer` işlemini **sonlandırma** ve **yeniden başlatma** |
-| 13 | 🟡 | Ekran yönünü değiştirerek **döndürme** |
+| 13 | 🟡 | Ekran yönünü değiştirerek **ekranı döndürme efekti** yapma |
 | 14 | 🟡 | **Sahte hata mesajı** pencereleri gösterme |
 | 15 | 🟠 | `Alt + F4` ile pencereleri kapatma |
 | 16 | 🟡 | Ekran görüntüsü alıp **sahte donmuş ekran efekti** oluşturma |
@@ -269,9 +269,10 @@ Toplamda `24` farklı event bulunmaktadır.
 **Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
 
 
-## 🏛️ Proje Durumu
 
-Bu proje, **2025 yılında** geliştirilmiş deneysel ve önceden eğlence amaçlı kullanılan nostaljik bir projedir.
+## 🏛️ Projenin Durumu
+
+Bu proje, **2025 yılında *(Nisan, Mayıs ve Haziran aylarında)*** geliştirilmiş deneysel ve önceden eğlence amaçlı kullanılan nostaljik bir projedir.
 
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
