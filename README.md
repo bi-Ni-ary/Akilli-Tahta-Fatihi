@@ -149,7 +149,7 @@ python src/main.py
 ### Terminal üzerinden Python formatında çalıştırıldıysa:
 - `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
-Veya **Görev Yöneticisi**nden ilgili görev veya görevleri (`Python` veya `cmd`) seçip **Görevi sonlandır** seçeneğini kullanabilirsiniz.
+- **Görev Yöneticisi**nden ilgili görev veya görevleri (`Python` veya `cmd`) seçip **Görevi sonlandır** seçeneğini kullanabilirsiniz.
 
 
 ### EXE dosyası üzerinden çalıştırıldıysa:
