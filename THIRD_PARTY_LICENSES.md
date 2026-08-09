@@ -174,6 +174,6 @@ The following modules are part of the Python Standard Library and are distribute
 - **Random** (`random`)
 - **OS** (`os`)
 - **Webbrowser** (`webbrowser`)
-
+- **Sys** (`sys`)
 
 *Python License Details:* https://docs.python.org/3/license.html
