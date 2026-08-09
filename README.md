@@ -4,7 +4,7 @@
 
 &nbsp;
 
-**Python** ile geliştirilmiş deneysel bir **Windows prank/automation** yazılımı.
+**Python** ile geliştirilmiş deneysel bir Windows **prank/automation** yazılımı.
 
 Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları olasılıksal olarak değişebilen evrimsel bir sistem simülasyonu üzerine kuruluydu. Daha sonra lise döneminde akıllı tahtalarda eğlence ve deney amacıyla kullanılan nostaljik bir projeye dönüştü.
 
@@ -57,13 +57,19 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 - `Windows 10` veya `Windows 11` (`64-bit` önerilir)
 - `Python 3.10` veya üzeri
-- Gerekli Python paketleri (`requirements.txt`)
+- Gerekli `Python` paketleri (`requirements.txt`)
+
+### Opsiyonel
+- `Git` *(Projeyi klonlamak için)*
+- `PyInstaller` *(Yalnızca `.exe` oluşturmak için)*
 
 
 
 ## ⚙️ Kurulum
 
-### Projeyi klonlayın:
+### 1. Projeyi Kurun
+
+### Yöntem A: `Git` ile projeyi klonlayın (geliştiriciler için):
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
@@ -76,7 +82,14 @@ cd Akilli-Tahta-Fatihi
 ```
 
 
-### Gerekli kütüphaneleri yükleyin:
+### Yöntem B: `ZIP` indirerek kurulum (normal kullanıcılar için):
+
+1. `GitHub` sayfasından `Code → Download ZIP` seçeneğiyle projeyi indirin.
+2. `ZIP` dosyasını çıkarın.
+3. Proje klasöründe **terminal** açın.
+
+
+### 2. Gerekli kütüphaneleri yükleyin:
 
 ```bash
 pip install -r requirements.txt
@@ -92,15 +105,14 @@ pip install pyautogui pygetwindow pillow
 
 ## ▶️ Kullanım
 
-Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın.
+Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın:
 
 ```bash
 python src/main.py
 ```
+**Programı çalıştırarak tüm sroumluluğu kabul etmiş olduğunuzu unutmayın!**
 
-komutuyla çalıştırabilirsiniz.
-
-> Daha fazla etki için programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+> Daha fazla etki için **dikkatli olmak şartıyla** programı aynı anda birden fazla kez de çalıştırabilirsiniz.
 
 
 ## ⏹️ Durdurma
@@ -111,11 +123,11 @@ komutuyla çalıştırabilirsiniz.
 
 ### EXE dosyası üzerinden çalıştırıldıysa:
 
-1. **Görev Yöneticisi**ni açın. (`CTRL + SHIFT + ESC`)
-2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin.
+1. **Görev Yöneticisi**ni açın (`CTRL + SHIFT + ESC`)
+2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin
 3. **Görevi sonlandır** seçeneğini kullanın
 
-> Sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak iki durumda da ve farklı durumlarda da büyük ihtimalle işe yarayacaktır.
+> Sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak iki durumda da ve farklı durumlarda da büyük ihtimalle işe yarar ve yeterli olur.
 
 
 
