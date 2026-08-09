@@ -21,7 +21,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 - Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
 - Test amacıyla güvenli ortamlarda kullanın.
-- Yanış kullanımdan veya kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
+- Kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
 
 **Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.**
 
@@ -37,7 +37,7 @@ iletişimi **bulunmamaktadır.**
 
 Bazı eventler kullanıcı deneyimi amacıyla internet
 tarayıcısını açabilir. Bu durumda internet erişimi,
-yalnızca ilgili event tetiklendiğinde `Google` veya `YouTube`
+yalnızca ilgili event tetiklendiğinde `Google` ve `YouTube`
 gibi servisleri varsayılan tarayıcı üzerinden açmak için
 kullanılır.
 
@@ -128,12 +128,12 @@ pip install pyautogui pygetwindow pillow
 
 ## ▶️ Kullanım
 
-**Programı çalıştırarak tüm sorumluluğu kabul etmiş olduğunuzu unutmayın! Yalnızca kendi cihanızda veya çalıştırma izniniz olan ortamlarda çalıştırın.**
+**Programı çalıştırarak tüm sorumluluğu kabul etmiş olduğunuzu unutmayın! Yalnızca kendi cihazınızda veya çalıştırma izniniz olan ortamlarda çalıştırın.**
 
 **Geliştirici, yazılımın yanlış kullanımından veya oluşabilecek
 zararlardan sorumlu değildir.**
 
-**Programın kapatılana kadar sürekli çalışan döngüler kullandığını unutmayın.**
+**Program kendiliğinden sonlanmaz, çalıştırdıktan sonra kapatmak için `Durdurma` bölümündeki adımları uygulayın.**
 
 &nbsp;
 
@@ -161,7 +161,7 @@ Veya **Görev Yöneticisi**nden ilgili görev veya görevleri (`Python` veya `cm
 2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin
 3. **Görevi sonlandır** seçeneğini kullanın
 
-> Sadece **Görev Yöneticisi**nden ilgili görev veya görevleri sonlandırmak iki durumda da ve farklı durumlarda da büyük ihtimalle işe yarar ve yeterli olur.
+> Çoğu durumda işlemi **Görev Yöneticisi** üzerinden sonlandırmak yeterlidir.
 
 
 
@@ -249,7 +249,7 @@ parametrisini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` ye
 
 - Eventlerin çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.
 
-- Durdurulana kadar sürekli çalışabilmesi için `While True:` döngüleri kullanılır.
+- Durdurulana kadar sürekli çalışabilmesi için `while True:` döngüleri kullanılır.
 
 
 ### 🧬 Genome Sistemi
