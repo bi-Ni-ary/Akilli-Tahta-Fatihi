@@ -272,7 +272,7 @@ Toplamda `24` farklı event bulunmaktadır.
 
 ## 🏛️ Projenin Durumu
 
-Bu proje, **2025 yılında *(Nisan, Mayıs ve Haziran aylarında)*** geliştirilmiş deneysel ve önceden eğlence amaçlı kullanılan nostaljik bir projedir.
+Bu proje, **2025 yılında *(nisan, mayıs ve haziran aylarında)*** geliştirilmiş deneysel ve eğlence amaçlı kullanılmış nostaljik bir projedir.
 
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
@@ -288,7 +288,7 @@ korumak amaçlanmaktadır.
 - PyAutoGUI
 - PyGetWindow
 - Pillow
-- PyInstaller &ensp; *(Opsiyonel, yalnızca **EXE** oluşturmak için)*
+- PyInstaller&ensp;*(Opsiyonel, yalnızca **EXE** oluşturmak için)*
 
 
 
