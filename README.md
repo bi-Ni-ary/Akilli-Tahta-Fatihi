@@ -151,9 +151,9 @@ python src/main.py
 
 1. **Görev Yöneticisi**ni açın (`CTRL + SHIFT + ESC`)
 2. İlgili işlemi bulun ve seçin:
-    - Python çalıştırılıyorsa: `python.exe`
-    - EXE çalıştırılıyorsa: `Akilli-Tahta-Fatihi.exe` veya *dosya ismnine göre ilgili işlem*
-    - Terminal üzerinde çalışıyorsa: *ilgili terminal işlemi*
+    - **Python** çalıştırılıyorsa: `python.exe`
+    - **EXE** çalıştırılıyorsa: `Akilli-Tahta-Fatihi.exe` veya *dosya ismnine göre ilgili işlem*
+    - **Terminal** üzerinde çalışıyorsa: *ilgili terminal işlemi*
 3. **Görevi sonlandır** seçeneğini kullanın
 
 
@@ -217,7 +217,7 @@ Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
 
 #### İkon Ekleme (Opsiyonel)
 
-Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına ikon eklemek için:
+Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına **ikon** eklemek için:
 
 ```cmd
 --icon "assets/icon.ico"
@@ -229,6 +229,8 @@ parametresini kullanabilirsiniz.
 
 
 #### Dosya Adını Değiştirme (Opsiyonel)
+
+**EXE** dosyasının **adını** belirtmek için:
 
 ```cmd
 --name Akilli-Tahta-Fatihi
@@ -308,7 +310,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
 ## 🏛️ Projenin Durumu
 
-Bu proje, **2025 yılında *(nisan, mayıs ve haziran aylarında)*** geliştirilmiş deneysel ve eğlence amaçlı kullanılmış nostaljik bir projedir.
+Bu proje, **2025 yılında *(özellikle nisan, mayıs ve haziran aylarında)*** geliştirilmiş deneysel ve okulda eğlence amacıyla kullanılmış nostaljik bir projedir.
 
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
@@ -321,6 +323,7 @@ korumak amaçlanmıştır.
 
 - Python
 - Tkinter
+- Threading
 - PyAutoGUI
 - PyGetWindow
 - Pillow
