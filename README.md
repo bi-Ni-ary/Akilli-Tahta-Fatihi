@@ -268,7 +268,7 @@ Her döngüde sistem:
 
 ### 🎲 Eventler
 
-Toplamda `24` farklı event bulunmaktadır. *(ID: 0-23)*
+Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
 - **Event ID**: Kod içerisindeki `case` değerini temsil eden benzersiz event numarası.
 - **Risk Seviyeleri**: 🟢 Güvenli | 🟡 Orta | 🟠 Yüksek | 🔴 Kritik
