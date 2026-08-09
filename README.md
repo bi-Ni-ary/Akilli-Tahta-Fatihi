@@ -55,7 +55,7 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 ## ✨ Genel Özellikler
 
-Bu proje, `Windows` üzerinde çeşitli sistem etkileşimleri gerçekleştirebilen deneysel bir otomasyon yazılımıdır.
+Bu proje, `Windows` üzerinde çeşitli sistem etkileşimleri gerçekleştirebilen **deneysel bir otomasyon yazılımıdır.**
 
 Başlıca özellikleri:
 
