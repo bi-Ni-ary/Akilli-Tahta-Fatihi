@@ -226,7 +226,7 @@ Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına ikon eklemek i�
 
 parametresini kullanabilirsiniz. 
 
-**`"assets/icon.ico"` yerine `.ico` dosyasının konumunu yazınız.**
+**`"assets/icon.ico"` yerine `.ico` dosyasının konumu neyse onu yazınız.**
 
 
 
