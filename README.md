@@ -305,7 +305,7 @@ Bu proje, **2025 yılında *(nisan, mayıs ve haziran aylarında)*** geliştiril
 Projenin mevcut kaynak kodu büyük ölçüde orijinal haliyle
 korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
 yerine projenin orijinal yapısını ve çalışma mantığını
-korumak amaçlanmaktadır.
+korumak amaçlanmıştır.
 
 
 
