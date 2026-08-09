@@ -72,7 +72,10 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 ### 1. Projeyi Kurun
 
-### Yöntem A: `Git` ile projeyi klonlayın (geliştiriciler için):
+Projeyi iki farklı yöntemle indirebilirsiniz.
+
+
+### **Yöntem A:** `Git` ile projeyi klonlayın (geliştiriciler için):
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
@@ -85,7 +88,7 @@ cd Akilli-Tahta-Fatihi
 ```
 
 
-### Yöntem B: `ZIP` indirerek kurulum (normal kullanıcılar için):
+### **Yöntem B:** `ZIP` indirerek kurulum (normal kullanıcılar için):
 
 1. `GitHub` sayfasından `Code → Download ZIP` seçeneğiyle projeyi indirin.
 2. `ZIP` dosyasını çıkarın.
