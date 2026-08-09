@@ -97,10 +97,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-## Pillow &ensp; (`PIL`, `PIL.Image`, `PIL.ImageTk`)
+## Pillow (PIL) &ensp; (`PIL`, `PIL.Image`, `PIL.ImageTk`)
 
 - **License:** HPND (MIT-CMU Variant)
-- **Copyright:** Jeffrey 'Alex' Clark, Secret Labs AB, Fredrik Lundh, ...  (1995 - 2010)
+- **Copyright:**
+    - Secret Labs AB (1997-2011),
+    - Fredrik Lundh and contributors (1995-2011),
+    - Jeffrey 'Alex' Clark and contributors (2010)
 - **Source:** https://github.com/python-pillow/Pillow/blob/main/LICENSE
 
 
