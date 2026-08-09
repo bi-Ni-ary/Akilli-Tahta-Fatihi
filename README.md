@@ -147,7 +147,7 @@ python src/main.py
 
 ## ⏹️ Durdurma
 
-### Her durumda
+### Genel Yöntem (Her Senaryoda Geçerli)
 
 1. **Görev Yöneticisi**ni açın (`CTRL + SHIFT + ESC`)
 2. İlgili işlemi bulun ve seçin:
@@ -157,7 +157,9 @@ python src/main.py
 3. **Görevi sonlandır** seçeneğini kullanın
 
 
-### Terminal üzerinden Python formatında çalıştırıldıysa (alternatif):
+### Terminal Yöntemi (Alternatif):
+
+Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 - `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
 
@@ -269,6 +271,10 @@ Her döngüde sistem:
 
 
 ### 🎲 Eventler
+
+> 📌 **Sistem Uyumluluğu Notu**: Bazı eventler *(ekran döndürme, işlem kapatma, kısayol simülasyonları vb.)* kullanılan **Windows** sürümüne, ekran kartı sürücülerine, sistem yetkilerine *(UAC)* veya donanım mimarisine ve diğer sistem özelliklerine bağlı olarak her cihazda aynı şekilde çalışmayabilir veya kısıtlanabilir. Yazılımın tüm ortamlarda kusursuz çalışacağına dair bir **garanti verilmemektedir.**
+
+&nbsp;
 
 Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
