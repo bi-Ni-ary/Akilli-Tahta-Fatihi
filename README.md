@@ -229,6 +229,15 @@ parametresini kullanabilirsiniz.
 **`"assets/icon.ico"` yerine `.ico` dosyasının konumu neyse onu yazınız.**
 
 
+#### Dosya Adını Değiştirme (Opsiyonel)
+
+```cmd
+--name Akilli-Tahta-Fatihi
+```
+
+parametrisini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` yerine istediğiniz adı yazabilirsiniz.
+
+
 
 ## 🧠 Çalışma Mantığı
 
