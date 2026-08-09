@@ -130,7 +130,7 @@ pip install pyautogui pygetwindow pillow
 
 **Programı çalıştırarak tüm sorumluluğu kabul etmiş olduğunuzu unutmayın! Yalnızca kendi cihazınızda veya çalıştırma izniniz olan ortamlarda çalıştırın.**
 
-**Program kendiliğinden sonlanmaz, çalıştırdıktan sonra kapatmak için `Durdurma` bölümündeki adımları uygulayın.**
+**Program kendiliğinden sonlanmaz, çalıştırdıktan sonra kapatmak için `⏹️ Durdurma` bölümündeki adımları uygulayın.**
 
 &nbsp;
 
