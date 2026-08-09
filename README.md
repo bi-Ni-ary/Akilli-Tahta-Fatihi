@@ -88,7 +88,7 @@ Başlıca özellikleri:
 
 ## ⚙️ Kurulum
 
-### 1. Projeyi Kurun
+### 1. Programı Edinin
 
 Projeyi iki farklı yöntemle indirebilirsiniz.
 
