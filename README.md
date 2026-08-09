@@ -92,7 +92,7 @@ Başlıca özellikleri:
 Projeyi iki farklı yöntemle indirebilirsiniz.
 
 
-### A. `Git` ile projeyi klonlayın (geliştiriciler için):
+#### A. `Git` ile projeyi klonlayın (geliştiriciler için):
 
 ```bash
 git clone https://github.com/bi-Ni-ary/Akilli-Tahta-Fatihi.git
@@ -105,7 +105,7 @@ cd Akilli-Tahta-Fatihi
 ```
 
 
-### B. `ZIP` indirerek kurulum (normal kullanıcılar için):
+#### B. `ZIP` indirerek kurulum (normal kullanıcılar için):
 
 1. `GitHub` sayfasından `Code → Download ZIP` seçeneğiyle projeyi indirin.
 2. `ZIP` dosyasını çıkarın.
