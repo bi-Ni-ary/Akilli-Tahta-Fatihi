@@ -27,7 +27,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 
 
-## 🔒 Gizlilik ve Ağ Kullanımı
+## 🔒 Güvenlik, Gizlilik ve Ağ Kullanımı
 
 Bu proje herhangi bir kullanıcı verisi **toplamaz**, **kaydetmez**
 ve herhangi bir uzak sunucuya **göndermez.**
