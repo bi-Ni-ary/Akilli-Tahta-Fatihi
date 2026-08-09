@@ -304,7 +304,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 | 17 | 🟠 | Çok sayıda `Paint` penceresi açma |
 | 18 | 🟡 | Ekran sürücüsünü yenileyerek **kısa süreli görüntü kesintisi** oluşturma |
 | 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma |
-| 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** |
+| 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** *(animasyon için `assets/loading.gif` dosyasını kullanır)* |
 | 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme **(`Hayır` seçilirse bilgisayar kapanır)** | 
 | 22 | 🔴 | `Windows oturumu`nu kapatma |
 | 23 | 🟢 | `>_ Ni` penceresi açma |
