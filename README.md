@@ -152,7 +152,7 @@ python src/main.py
 1. **Görev Yöneticisi**ni açın (`CTRL + SHIFT + ESC`)
 2. İlgili işlemi bulun ve seçin:
     - **Python** çalıştırılıyorsa: `python.exe`
-    - **EXE** çalıştırılıyorsa: `Akilli-Tahta-Fatihi.exe` veya *dosya ismnine göre ilgili işlem*
+    - **EXE** çalıştırılıyorsa: `Akilli-Tahta-Fatihi.exe` veya *dosya ismine göre ilgili işlem*
     - **Terminal** üzerinde çalışıyorsa: *ilgili terminal işlemi*
 3. **Görevi sonlandır** seçeneğini kullanın
 
