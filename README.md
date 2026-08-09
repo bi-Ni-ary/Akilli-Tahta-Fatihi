@@ -110,7 +110,7 @@ cd Akilli-Tahta-Fatihi
 
 1. `GitHub` sayfasından `Code → Download ZIP` seçeneğiyle projeyi indirin.
 2. `ZIP` dosyasını çıkarın.
-3. Proje klasöründe **terminal** açın.
+3. Proje klasöründe (`Akilli-Tahta-Fatihi`) **terminal** açın.
 
 
 ### 2. Gerekli Kütüphaneleri Yükleyin
