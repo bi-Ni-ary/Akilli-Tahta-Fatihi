@@ -21,7 +21,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 - Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
 - Test amacıyla güvenli ortamlarda kullanın.
-- Kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
+- Yanış kullanımdan veya kullanımdan doğabilecek sonuçlardan kullanıcı sorumludur.
 
 **Bu proje eğitim, deney ve nostaljik amaçlarla paylaşılmıştır.**
 
