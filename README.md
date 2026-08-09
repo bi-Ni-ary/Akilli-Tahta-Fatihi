@@ -272,7 +272,7 @@ Her döngüde sistem:
 
 ### 🎲 Eventler
 
-> 📌 **Sistem Uyumluluğu Notu**: Bazı eventler kullanılan **Windows** sürümüne, ekran kartı sürücülerine, sistem yetkilerine *(UAC)*, donanım mimarisine veya diğer sistem özelliklerine bağlı olarak **her cihazda aynı şekilde çalışmayabilir** veya **kısıtlanabilir**. Yazılımın tüm ortamlarda kusursuz çalışacağına dair bir **garanti verilmemektedir.**
+> 📌 **Sistem Uyumluluğu Notu**: Bazı eventler kullanılan **Windows** sürümüne, ekran kartı sürücülerine, sistem yetkilerine *(UAC)*, donanım mimarisine veya diğer sistem özelliklerine bağlı olarak **her cihazda aynı şekilde çalışmayabilir veya kısıtlanabilir**. Yazılımın tüm ortamlarda kusursuz çalışacağına dair bir **garanti verilmemektedir.**
 
 &nbsp;
 
