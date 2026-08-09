@@ -17,7 +17,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 ## ⚠️ Uyarı
 
-**Bu proje bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
+**Bu proje sonlandırılana kadar sürekli çalışan döngü yapıları kullanır, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
 
 - Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
 - Test amacıyla güvenli ortamlarda kullanın.
@@ -59,8 +59,8 @@ Bu proje, `Windows` üzerinde çeşitli sistem etkileşimleri gerçekleştirebil
 
 Başlıca özellikleri:
 
-- Kullanıcı deneyimini değiştirebilecek çeşitli **sistem etkileşimleri** gerçekleştirebilir.
-- **Klavye ve fare** girişleri üzerinde otomatik işlemler gerçekleştirebilir.
+- Kullanıcı deneyimini değiştirebilecek **çeşitli sistem etkileşimleri** gerçekleştirebilir.
+- **Klavye ve fare girişleri** üzerinde otomatik işlemler gerçekleştirebilir.
 - **Açık pencereler ve masaüstü** üzerinde çeşitli işlemler yapabilir.
 - **Görsel efektler** ve kullanıcı arayüzü tabanlı **deneysel ekranlar** oluşturabilir.
 - **Bildirim, uyarı ve sahte sistem ekranı** benzeri görsel deneyimler oluşturabilir.
@@ -132,6 +132,8 @@ pip install pyautogui pygetwindow pillow
 
 **Geliştirici, yazılımın yanlış kullanımından veya oluşabilecek
 zararlardan sorumlu değildir.**
+
+**Programın kapatılana kadar sürekli çalışan döngüler kullandığını unutmayın.**
 
 &nbsp;
 
@@ -235,6 +237,8 @@ parametresini kullanabilirsiniz.
 - Program belirli aralıklarla bir event seçer ve her eventin seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
 - Eventlerin çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.
+
+- Durdurulana kadar sürekli çalışabilmesi için `While True:` döngüleri kullanılır.
 
 
 ### 🧬 Genome Sistemi
