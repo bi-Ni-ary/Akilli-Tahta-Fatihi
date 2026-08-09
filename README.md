@@ -146,19 +146,18 @@ python src/main.py
 
 ## ⏹️ Durdurma
 
-### Terminal üzerinden Python formatında çalıştırıldıysa:
-- `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
-
-- **Görev Yöneticisi**nden ilgili görev veya görevleri (`Python` veya `cmd`) seçip **Görevi sonlandır** seçeneğini kullanabilirsiniz.
-
-
-### EXE dosyası üzerinden çalıştırıldıysa:
+### Her durumda
 
 1. **Görev Yöneticisi**ni açın (`CTRL + SHIFT + ESC`)
-2. İlgili işlemi (`Akilli-Tahta-Fatihi.exe`) bulun ve seçin
+2. İlgili işlemi bulun ve seçin:
+  - Python çalıştırılıyorsa: `python.exe`
+  - EXE çalıştırılıyorsa: `Akilli-Tahta-Fatihi.exe` veya *dosya ismnine göre ilgili işlem*
+  - Terminal üzerinde çalışıyorsa: *ilgili terminal işlemi*
 3. **Görevi sonlandır** seçeneğini kullanın
 
-> Çoğu durumda işlemi **Görev Yöneticisi** üzerinden sonlandırmak yeterlidir.
+
+### Terminal üzerinden Python formatında çalıştırıldıysa (alternatif):
+- `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
 
 
