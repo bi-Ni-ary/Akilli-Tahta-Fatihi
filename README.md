@@ -288,7 +288,7 @@ korumak amaçlanmaktadır.
 - PyAutoGUI
 - PyGetWindow
 - Pillow
-- PyInstaller&ensp;*(Opsiyonel, yalnızca **EXE** oluşturmak için)*
+- PyInstaller &ensp;*(Opsiyonel, yalnızca **EXE** oluşturmak için)*
 
 
 
