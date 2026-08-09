@@ -64,7 +64,7 @@ Başlıca özellikleri:
 - **Açık pencereler ve masaüstü** üzerinde çeşitli işlemler yapabilir.
 - **Görsel efektler** ve kullanıcı arayüzü tabanlı deneysel ekranlar oluşturabilir.
 - **Bildirim, uyarı ve sahte sistem ekranları** benzeri görsel deneyimler oluşturabilir.
-- **Event sistemi** aracılığıyla rastgele ve olasılıksal davranışlar sergileyebilir.
+- Event sistemi aracılığıyla **rastgele ve olasılıksal davranışlar** sergileyebilir.
 - **Windows bileşenleri ve uygulamalarıyla** etkileşim kurabilir.
 - Deneysel davranış sistemi sayesinde farklı **çalışma senaryoları** oluşturabilir.
 
