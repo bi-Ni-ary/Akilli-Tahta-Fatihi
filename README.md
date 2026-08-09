@@ -111,7 +111,7 @@ pip install pyautogui pygetwindow pillow
 
 ## ▶️ Kullanım
 
-**Programı çalıştırarak tüm sroumluluğu kabul etmiş olduğunuzu unutmayın! Yanlızca kendi cihanızda veya izin verilen ortamlarda çalıştırın.**
+**Programı çalıştırarak tüm sorumluluğu kabul etmiş olduğunuzu unutmayın! Yalnızca kendi cihanızda veya çalıştırma izniniz olan ortamlarda çalıştırın.**
 
 **Geliştirici, yazılımın yanlış kullanımından veya oluşabilecek
 zararlardan sorumlu değildir.**
@@ -125,6 +125,7 @@ python src/main.py
 ```
 
 > Daha fazla etki için **dikkatli olmak şartıyla** programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+
 
 
 ## ⏹️ Durdurma
