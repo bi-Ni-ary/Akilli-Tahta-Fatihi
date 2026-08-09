@@ -112,13 +112,13 @@ cd Akilli-Tahta-Fatihi
 3. Proje klasöründe **terminal** açın.
 
 
-### 2. Gerekli kütüphaneleri yükleyin:
+### 2. Gerekli Kütüphaneleri Yükleyin
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Alternatif olarak kütüphaneleri manuel şekilde de yükleyebilirsiniz:
+veya alternatif olarak kütüphaneleri manuel şekilde de yükleyebilirsiniz:
 
 ```bash
 pip install pyautogui pygetwindow pillow
