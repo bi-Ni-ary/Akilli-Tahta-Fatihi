@@ -55,18 +55,19 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 ## ✨ Genel Özellikler
 
-Bu proje, `Windows` üzerinde çeşitli sistem etkileşimleri gerçekleştirebilen **deneysel bir otomasyon yazılımıdır.**
+Bu proje, **Windows ortamında** çeşitli sistem etkileşimleri gerçekleştirebilen deneysel bir otomasyon yazılımıdır.
+
 
 Başlıca özellikleri:
 
-- **Kullanıcı deneyimini değiştirebilecek** çeşitli sistem etkileşimleri gerçekleştirebilir.
+- **Olasılıksal event sistemi** sayesinde her çalışma sırasında farklı davranış senaryoları oluşturabilir.
+- **Genome tabanlı davranış sistemi** ile eventlerin çalışma sıklıkları ve bekleme süreleri değişebilir.
+- **Bildirim, uyarı pencereleri ve sahte sistem ekranları** gibi görsel deneyimler oluşturabilir.
 - **Klavye ve fare girişleri** üzerinde otomatik işlemler gerçekleştirebilir.
-- **Açık pencereler ve masaüstü** üzerinde çeşitli işlemler yapabilir.
-- **Görsel efektler** ve kullanıcı arayüzü tabanlı deneysel ekranlar oluşturabilir.
-- **Bildirim, uyarı ve sahte sistem ekranları** benzeri görsel deneyimler oluşturabilir.
-- Event sistemi aracılığıyla **rastgele ve olasılıksal davranışlar** sergileyebilir.
-- **Windows bileşenleri ve uygulamalarıyla** etkileşim kurabilir.
-- Deneysel davranış sistemi sayesinde farklı **çalışma senaryoları** oluşturabilir.
+- **Açık pencereler, masaüstü ve Windows bileşenleri** üzerinde çeşitli sistem etkileşimleri gerçekleştirebilir.
+- **Uygulama açma, pencere yönetimi ve kullanıcı arayüzü değişiklikleri** gibi işlemler gerçekleştirebilir.
+- Bilgisayarı **kapatabilir, yeniden başlatabilir veya Windows oturumunu kapatabilir.**
+- Her çalıştırmada farklı sonuçlar oluşturabilen **rastgele davranış yapısına** sahiptir.
 
 
 
