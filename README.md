@@ -55,7 +55,7 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 ## 📋 Gereksinimler
 
-## Zorunlu
+### Zorunlu
 
 - `Windows 10` veya `Windows 11` (`64-bit` önerilir)
 - `Python 3.10` veya üzeri
