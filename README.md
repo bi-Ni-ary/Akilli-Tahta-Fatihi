@@ -111,9 +111,13 @@ pip install pyautogui pygetwindow pillow
 
 ## ▶️ Kullanım
 
-**Programı çalıştırarak tüm sroumluluğu kabul etmiş olduğunuzu unutmayın!**
+**Programı çalıştırarak tüm sroumluluğu kabul etmiş olduğunuzu unutmayın! Yanlızca kendi cihanızda veya izin verilen ortamlarda çalıştırın.**
+
+**Geliştirici, yazılımın yanlış kullanımından veya oluşabilecek
+zararlardan sorumlu değildir.**
 
 &nbsp;
+
 Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın:
 
 ```bash
