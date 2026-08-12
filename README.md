@@ -250,9 +250,18 @@ parametresini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` ye
 
 - Program belirli aralıklarla bir event seçer ve her eventin seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
-- Eventlerin çalıştırılması için **Python 3.10** ile gelen `match / case` yapısı kullanılır.
+- Eventlerin tetiklenmesi için **Python 3.10** ile gelen `match / case` yapısı kullanılır.
 
 - Durdurulana kadar sürekli çalışabilmesi için `while True:` döngüleri kullanılır.
+
+
+### 🔧 Kullanılan Önemli Fonksiyonlar
+
+- **Sistem ve İşlemler:** `os.system()`, `subprocess.Popen()`, `subprocess.run()`
+- **Otomasyon ve Girdiler:** `pyautogui.hotkey()`, `pyautogui.click()`, `pyautogui.screenshot()`
+- **Arayüz ve Uyarılar**: `messagebox.showwarning()`, `messagebox.showerror()`, `messagebox.askyesno()`, `tk.Toplevel()`
+- **Arka Plan ve Ağ:** `threading.Thread()`, `webbrowser.open()`
+- **Dosya ve Sistem Yolu**: `tempfile.gettempdir()`, `os.path.join()`
 
 
 ### 🧬 Genome Sistemi
@@ -313,6 +322,20 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
 
 **Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
+
+
+### ⌨️ Kullanılan Klavye Kısayolları ve Tuşları
+
+> **Klavye kısayolu** ve **medya tuşu** etkileşimleri için `pyautogui.hotkey()` fonksiyonu kullanılır.
+
+| Kısayol / Tuş | İşlev | Event ID |
+|:---:|:---|:---|
+| `WIN + D` | Tüm pencereleri **küçültür** ve **masaüstünü gösterir** | 4, 6, 7, 20, 21 |
+| `ALT + F4` | Aktif pencereyi **kapatır** | 15, 20 |
+| `WIN + CTRL + SHIFT + B` | Ekran sürücüsünü yeniden başlatır | 16, 18 |
+| `CTRL + ALT + YÖN TUŞLARI` | Ekran yönünü değiştirir *(sol/aşağı/sağ/yukarı)* | 13 |
+| `WIN` | `Başlat menüsü`nü açar ve kapatır | 19 |
+| `Volume Up / Down` | Sistem **ses seviyesini** artırır veya azaltır | 7, 14, 16, 20 |
 
 
 
