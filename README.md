@@ -348,6 +348,8 @@ korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
 yerine projenin orijinal yapısını ve çalışma mantığını
 korumak amaçlanmıştır.
 
+**Proje, aktif olarak geliştirilmemektedir ve oluşabilecek sistem aksaklıklarından çalıştıran kişi sorumludur.**
+
 
 
 ## 🛠️ Teknolojiler
