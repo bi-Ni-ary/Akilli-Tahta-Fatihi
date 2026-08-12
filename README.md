@@ -17,7 +17,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 ## ⚠️ Uyarı
 
-**Bu proje sonlandırılana kadar sürekli çalışan döngü yapıları kullanır, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
+**Bu proje kendiliğinden durmaz, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
 
 - Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
 - Test amacıyla güvenli ortamlarda kullanın.
@@ -66,6 +66,8 @@ Başlıca özellikleri:
 - **Klavye ve fare girişleri** üzerinde otomatik işlemler gerçekleştirebilir.
 - **Açık pencereler, masaüstü ve Windows bileşenleri** üzerinde çeşitli sistem etkileşimleri gerçekleştirebilir.
 - **Uygulama açma, pencere yönetimi ve kullanıcı arayüzü değişiklikleri** gibi işlemler gerçekleştirebilir.
+- Açık pencereleri **kapatabilir**, **küçültebilir** ve **çok sayıda** pencere açabilir.
+- Bilgisayarın sesini **açabilir, kapatabilir, yükseltebilir ve kısabilir.**
 - Bilgisayarı **kapatabilir, yeniden başlatabilir veya Windows oturumunu kapatabilir.**
 - Her çalıştırmada farklı sonuçlar oluşturabilen **rastgele davranış yapısına** sahiptir.
 
@@ -286,8 +288,8 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 |:---:|:---:|:---|
 | 0 | 🟢 | Hiçbir işlem yapmayan **boş** event |
 | 1 | 🟢 | `Windows Defender`'ı açma |
-| 2 | 🟠 | Çok sayıda `Not Defteri` penceresi açma |
-| 3 | 🟠 | Çok sayıda `Hesap Makinesi` penceresi açma |
+| 2 | 🟠 | **Çok sayıda** `Not Defteri` penceresi açma |
+| 3 | 🟠 | **Çok sayıda** `Hesap Makinesi` penceresi açma |
 | 4 | 🟡 | Açık pencereleri küçültüp **masaüstüne geçme**|
 | 5 | 🟠 | Açık pencereleri **kapatma** |
 | 6 | 🔴 | Bilgisayarı **doğrudan kapatma** |
