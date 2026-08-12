@@ -219,6 +219,17 @@ Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
 | `src/main.py` | Ana `Python` dosyasını belirtir |
 
 
+#### Dosya Adını Değiştirme (Opsiyonel)
+
+**EXE** dosyasının **adını** belirtmek için:
+
+```cmd
+--name Akilli-Tahta-Fatihi
+```
+
+parametresini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` yerine **istediğiniz adı** yazabilirsiniz.
+
+
 #### İkon Ekleme (Opsiyonel)
 
 Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına **ikon** eklemek için:
@@ -230,17 +241,6 @@ Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına **ikon** ekleme
 parametresini kullanabilirsiniz. 
 
 *`"assets/icon.ico"` yerine `.ico` dosyasının konumu neyse onu yazınız.*
-
-
-#### Dosya Adını Değiştirme (Opsiyonel)
-
-**EXE** dosyasının **adını** belirtmek için:
-
-```cmd
---name Akilli-Tahta-Fatihi
-```
-
-parametresini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` yerine **istediğiniz adı** yazabilirsiniz.
 
 
 
