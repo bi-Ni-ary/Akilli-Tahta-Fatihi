@@ -168,26 +168,9 @@ Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 
 ## 📸 Demo
 
-> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı sahte sistem ekranları, uyarı pencereleri ve arayüz etkileşimleri yer almaktadır.
+> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı **sahte sistem ekranları**, **uyarı pencereleri** ve **arayüz etkileşimleri** yer almaktadır.
 
 ### 🖼️ Ekran Görüntüleri
-
-Farklı boyutlardaki görselleri bozmadan (orijinal oranlarını/aspect ratio koruyarak) görünüm olarak eşitlemek için HTML <table> ve <img> etiketlerinin width veya max-width parametrelerinden yararlanabiliriz.  
-
-
-Aşağıdaki yapıda:
-Sol sütunda görsel yer alır ve genişliği sabittir (örneğin width="320" veya width="400"). Görsel esnetilmez (stretch yapılmaz), otomatik olarak oranını koruyarak küçülür.  
-
-
-Sağ sütunda ise Event numarası, risk seviyesi ve açıklaması yer alır.  
-
-
-README dosyandaki 📸 Demo bölümüne doğrudan kopyalayıp ekleyebileceğin şablon:
-HTML
-
-## 📸 Demo
-
-> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı sahte sistem ekranları, uyarı pencereleri ve arayüz etkileşimleri yer almaktadır.
 
 <table>
   <!-- Event 20 -->
@@ -262,6 +245,7 @@ HTML
 </table>
 
 
+**Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
 
 
 
@@ -297,6 +281,11 @@ src/main.py
 ```
 
 Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
+
+> **ℹ️ Teknik Not:**
+*PyInstaller*, kodu C/C++ gibi makine diline **derlemez**; Python 
+yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda 
+çalışabilmesi için **tek bir pakete toplar** (bundling).
 
 &nbsp;
 
