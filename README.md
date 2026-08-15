@@ -15,6 +15,25 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 
 
+## 📁 Projenin Yapısı
+
+```text
+Akilli-Tahta-Fatihi/
+├── assets/
+│   ├── demo/
+│   └── loading.gif
+├── src
+│   └── main.py
+├── .gitignore
+├── build.bat
+├── LICENSE
+├── README.md
+├── THIRD_PARTY_LICENSES.md
+└── requirements.txt
+```
+
+
+
 ## ⚠️ Uyarı
 
 **Bu proje kendiliğinden durmaz, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
