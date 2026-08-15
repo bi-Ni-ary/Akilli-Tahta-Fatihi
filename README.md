@@ -168,7 +168,7 @@ Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 
 ## 📸 Demo
 
-> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı **sahte sistem ekranları**, **uyarı pencereleri** ve **arayüz etkileşimleri** yer almaktadır.
+> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı **sahte sistem ekranları, uyarı pencereleri ve arayüz etkileşimleri** yer almaktadır.
 
 ### 🖼️ Ekran Görüntüleri
 
@@ -251,7 +251,7 @@ Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir.
+Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir. Oluşturulan **EXE** dosyası da **yalnızca test ortamında veya izin verilen cihazlarda kullanılmalıdır.**
 
 
 ### PyInstaller kurulumu:
@@ -281,6 +281,7 @@ src/main.py
 ```
 
 Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
+
 
 > **ℹ️ Teknik Not:**
 *PyInstaller*, kodu C/C++ gibi makine diline **derlemez**; Python 
