@@ -418,7 +418,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 | `WIN + CTRL + SHIFT + B` | Ekran sürücüsünü yeniden başlatır | 16, 18 |
 | `CTRL + ALT + YÖN TUŞLARI` | Ekran yönünü değiştirir *(sol/aşağı/sağ/yukarı)* | 13 |
 | `WIN` | `Başlat menüsü`nü açar ve kapatır | 19 |
-| `Volume Up / Down` | Sistem **ses seviyesini** artırır veya azaltır | 7, 14, 16, 20 |
+| `Volume Up / Down` | Sistem **ses seviyesini** artırır ve azaltır | 7, 14, 16, 20 |
 
 
 
