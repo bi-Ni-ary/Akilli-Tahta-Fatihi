@@ -15,25 +15,6 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 
 
-## 📁 Projenin Yapısı
-
-```text
-Akilli-Tahta-Fatihi/
-├── assets/
-│   ├── demo/
-│   └── loading.gif
-├── src
-│   └── main.py
-├── .gitignore
-├── build.bat
-├── LICENSE
-├── README.md
-├── THIRD_PARTY_LICENSES.md
-└── requirements.txt
-```
-
-
-
 ## ⚠️ Uyarı
 
 **Bu proje kendiliğinden durmaz, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
@@ -182,6 +163,24 @@ python src/main.py
 
 Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 - `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
+
+
+## 📁 Projenin Yapısı
+
+```text
+Akilli-Tahta-Fatihi/
+├── assets/
+│   ├── demo/
+│   └── loading.gif
+├── src
+│   └── main.py
+├── .gitignore
+├── build.bat
+├── LICENSE
+├── README.md
+├── THIRD_PARTY_LICENSES.md
+└── requirements.txt
+```
 
 
 
