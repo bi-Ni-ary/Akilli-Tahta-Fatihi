@@ -168,7 +168,100 @@ Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 
 ## 📸 Demo
 
-*(YAKINDA GELECEK)*
+> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı sahte sistem ekranları, uyarı pencereleri ve arayüz etkileşimleri yer almaktadır.
+
+### 🖼️ Ekran Görüntüleri
+
+Farklı boyutlardaki görselleri bozmadan (orijinal oranlarını/aspect ratio koruyarak) görünüm olarak eşitlemek için HTML <table> ve <img> etiketlerinin width veya max-width parametrelerinden yararlanabiliriz.  
+
+
+Aşağıdaki yapıda:
+Sol sütunda görsel yer alır ve genişliği sabittir (örneğin width="320" veya width="400"). Görsel esnetilmez (stretch yapılmaz), otomatik olarak oranını koruyarak küçülür.  
+
+
+Sağ sütunda ise Event numarası, risk seviyesi ve açıklaması yer alır.  
+
+
+README dosyandaki 📸 Demo bölümüne doğrudan kopyalayıp ekleyebileceğin şablon:
+HTML
+
+## 📸 Demo
+
+> 📌 Aşağıda yazılımın çalışma sırasında oluşturduğu bazı sahte sistem ekranları, uyarı pencereleri ve arayüz etkileşimleri yer almaktadır.
+
+<table>
+  <!-- Event 20 -->
+  <tr>
+    <td colspan="2"><h3>Event 20: Sahte Windows Güncelleme Ekranı</h3></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/demo/20-update.png" alt="Sahte Güncelleme Ekranı" width="380">
+    </td>
+    <td width="50%" valign="top">
+      <b>Risk Seviyesi:</b> 🔴 Kritik<br><br>
+      Tam ekranda sahte güncelleme animasyonu gösterir. %100'e ulaşıp tamamlandığında <b>sistemi yeniden başlatır.</b>
+    </td>
+  </tr>
+
+  <!-- Event 14 -->
+  <tr>
+    <td colspan="2"><h3>Event 14: Sahte Hata Pencereleri</h3></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/demo/14-error.png" alt="Sahte Hata Mesajı" width="380">
+    </td>
+    <td width="50%" valign="top">
+      <b>Risk Seviyesi:</b> 🟡 Orta<br><br>
+      Ekranda üst üste beliren <b>sahte sistem hata mesajı pencereleri</b> fırlatır.
+    </td>
+  </tr>
+
+  <!-- Event 21 -->
+  <tr>
+    <td colspan="2"><h3>Event 21: Ters Çalışan Kapatma Onayı</h3></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/demo/21-confirm.png" alt="Ters Çalışan Onay Penceresi" width="380">
+    </td>
+    <td width="50%" valign="top">
+      <b>Risk Seviyesi:</b> 🔴 Kritik<br><br>
+      Kullanıcıya kapatma onayı sorar; <b>"Hayır" seçeneği tıklandığında bilgisayarı kapatır,</b> "Evet" seçildiğinde hiçbir şey yapmaz.
+    </td>
+  </tr>
+
+  <!-- Event 7 -->
+  <tr>
+    <td colspan="2"><h3>Event 7: Yeniden Başlatma Uyarısı</h3></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/demo/7-warn.png" alt="Yeniden Başlatma Uyarısı" width="380">
+    </td>
+    <td width="50%" valign="top">
+      <b>Risk Seviyesi:</b> 🔴 Kritik<br><br>
+       <b>Windows Güvenliği</b> adı altında uyarı mesajı çıkarır ve pencere kapatıldığında <i>("Tamam" seçeneğine veya "X" işaretine tıklandığında)</i> <b>sistemi yeniden başlatır.</b>
+    </td>
+  </tr>
+
+  <!-- Event 23 -->
+  <tr>
+    <td colspan="2"><h3>Event 23: >_ Ni Penceresi</h3></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/demo/23-ni.png" alt="Ni Penceresi" width="380">
+    </td>
+    <td width="50%" valign="top">
+      <b>Risk Seviyesi:</b> 🟢 Güvenli<br><br>
+      Siyah arka plan üzerinde beyaz yazıyla <b>geliştirici imzasını taşıyan</b> bir pencere açar.
+    </td>
+  </tr>
+</table>
+
+
 
 
 
@@ -255,7 +348,7 @@ parametresini kullanabilirsiniz.
 - Durdurulana kadar sürekli çalışabilmesi için `while True:` döngüleri kullanılır.
 
 
-### 🔧 Kullanılan Önemli Fonksiyonlar
+### 🔧 Önemli Fonksiyonlar
 
 - **Sistem ve İşlemler:** `os.system()`, `subprocess.Popen()`, `subprocess.run()`
 - **Otomasyon ve Girdiler:** `pyautogui.hotkey()`, `pyautogui.click()`, `pyautogui.screenshot()`
@@ -324,9 +417,9 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 **Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
 
 
-### ⌨️ Kullanılan Klavye Kısayolları ve Tuşları
+### ⌨️ Klavye Kısayolları ve Tuşlar
 
-> **Klavye kısayolu** ve **medya tuşu** etkileşimleri için `pyautogui.hotkey()` fonksiyonu kullanılır.
+> **Klavye kısayolu** ve **medya tuşu** etkileşimleri için `pyautogui.hotkey()` fonksiyonu kullanılmıştır.
 
 | Kısayol / Tuş | İşlev | Event ID |
 |:---:|:---|:---|
@@ -348,7 +441,7 @@ korunmaktadır. Yeni özellikler eklemek veya kodu güncellemek
 yerine projenin orijinal yapısını ve çalışma mantığını
 korumak amaçlanmıştır.
 
-**Proje, aktif olarak geliştirilmemektedir ve oluşabilecek sistem aksaklıklarından çalıştıran kişi sorumludur.**
+Proje, aktif olarak **geliştirilmemektedir** ve oluşabilecek sistem aksaklıklarından **çalıştıran kişi sorumludur.**
 
 
 
