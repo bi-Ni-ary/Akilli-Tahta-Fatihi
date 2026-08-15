@@ -13,7 +13,6 @@ The project's own license is provided separately in the `LICENSE` file.
 
 ```text
 Akilli-Tahta-Fatihi
-│
 ├── pyautogui
 │   ├── pymsgbox
 │   ├── pytweening
