@@ -207,7 +207,7 @@ The following built-in modules are part of the standard Python distribution and 
 - **Threading:** `threading`, `threading.Thread`
 - **Subprocess:** `subprocess`
 - **Time:** `time`
-- **TempFile:** `tempfile`
+- **Tempfile:** `tempfile`
 - **Random:** `random`
 - **OS:** `os`
 - **WebBrowser**: `webbrowser`
