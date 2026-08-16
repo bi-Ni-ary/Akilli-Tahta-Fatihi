@@ -288,19 +288,36 @@ Akilli-Tahta-Fatihi/
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Projeyi tek dosyalı `.exe` haline getirmek için `PyInstaller` kullanılabilir. Oluşturulan **EXE** dosyası da **yalnızca test ortamında veya izin verilen cihazlarda kullanılmalıdır.**
+Projeyi **Windows** üzerinde çalıştırılabilir tek bir `.exe` dosyasına dönüştürmek için **iki farklı yöntem** kullanabilirsiniz. Oluşturulan **EXE** dosyası da **yalnızca test ortamında veya izin verilen cihazlarda kullanılmalıdır.**
 
 
-### PyInstaller kurulumu:
+### 1. Tek Tıkla Otomatik Oluşturma
+
+Proje kök dizininde bulunan `build.bat` betiğini çalıştırmanız yeterlidir:
+
+1. `build.bat` dosyasına çift tıklayın veya terminalden çalıştırın:
+```cmd
+build.bat
+```
+2. Betik, gerekli bağımlılıkları *(PyInstaller vb.)* otomatik olarak kontrol edecek ve derleme işlemini başlatacaktır.
+3. Derleme tamamlandığında hazırlanan **EXE** dosyası `dist/Akilli-Tahta-Fatihi.exe` konumunda yer alacaktır.
+
+
+### 2. Manuel Şekilde Oluşturma
+
+İsterseniz **PyInstaller** komutunu doğrudan terminal üzerinden kendiniz de çalıştırabilirsiniz:
+
+#### PyInstaller kurulumu:
 
 ```bash
 pip install pyinstaller
 ```
 
-### EXE oluşturma:
+#### EXE oluşturma:
 
 ```cmd
-pyinstaller --onefile --windowed ^
+pyinstaller --noconfirm --clean ^
+--onefile --windowed ^
 --name Akilli-Tahta-Fatihi ^
 --hidden-import=tkinter ^
 --hidden-import=pyautogui ^
@@ -327,10 +344,12 @@ yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda
 
 &nbsp;
 
-#### Komut Açıklamaları
+### Komut Açıklamaları
 
 | Parametre | Açıklama |
 |:---:|:---|
+| `--noconfirm` | Eski derleme çıktılarının üzerine **onay istemeden doğrudan yazar** |
+| `--clean` | Önceki derlemelerden kalan **önbellek dosyalarını temizleyerek** sıfırdan derler |
 | `--onefile` | Tüm dosyaları tek bir `.exe` içerisinde toplar |
 | `--windowed` | Konsol penceresi açmadan çalıştırır |
 | `--name` | Oluşturulacak `.exe` dosyasının dosya adını belirler, **istenirse farklı ad verilebilir** |
@@ -339,28 +358,12 @@ yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda
 | `src/main.py` | Ana `Python` dosyasını belirtir |
 
 
-#### Dosya Adını Değiştirme (Opsiyonel)
+### İpuçları ve Özelleştirme
 
-**EXE** dosyasının **adını** belirtmek için:
+- **Dosya Adı:** `--name Akilli-Tahta-Fatihi` parametresindeki ismi değiştirerek çıktı dosyanızın **adını belirleyebilirsiniz.**
+- **İkon:** `--icon "<ikon-dosyasinin-yolu.ico>"` parametresini kullanarak çıktı dosyasına bir **ikon atayabilirsiniz.**
 
-```cmd
---name Akilli-Tahta-Fatihi
-```
-
-parametresini kullanabilir, `--name ` kısmından sonra `Akilli-Tahta-Fatihi` yerine **istediğiniz adı** yazabilirsiniz.
-
-
-#### İkon Ekleme (Opsiyonel)
-
-Bir `.ico` dosyası kullanarak oluşturulacak **EXE** dosyasına **ikon** eklemek için:
-
-```cmd
---icon "assets/icon.ico"
-```
-
-parametresini kullanabilirsiniz. 
-
-*`"assets/icon.ico"` yerine `.ico` dosyasının konumu neyse onu yazınız.*
+Bu **dosya adı** ve **ikon** işlemleri **tamamen opsiyoneldir.**
 
 
 
