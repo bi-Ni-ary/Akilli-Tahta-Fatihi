@@ -124,7 +124,7 @@ pip install -r requirements.txt
 veya alternatif olarak kütüphaneleri manuel şekilde de yükleyebilirsiniz:
 
 ```bash
-pip install pyautogui pygetwindow pillow
+pip install "pyautogui>=0.9.54" "pygetwindow>=0.0.9" "pillow>=11.1.0"
 ```
 
 
