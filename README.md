@@ -171,6 +171,11 @@ Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
 Akilli-Tahta-Fatihi/
 ├── assets/
 │   ├── demo/
+│   │   ├── 14-error.png
+│   │   ├── 20-update.png
+│   │   ├── 21-confirm.png
+│   │   ├── 23-ni.png
+│   │   └── 7-warn.png
 │   └── loading.gif
 ├── src
 │   └── main.py
@@ -181,6 +186,20 @@ Akilli-Tahta-Fatihi/
 ├── THIRD_PARTY_LICENSES.md
 └── requirements.txt
 ```
+
+
+### Dosya ve Klasör Açıklamaları
+
+- **`assets/`:** Uygulama içerisinde kullanılan **görsel ve medya dosyalarını** barındırır.
+    - **`demo/`:** **README** dokümanında kullanılan **ekran görüntülerini ve demo görsellerini** içerir.
+    - **`loading.gif`:** **Event 20**'de kullanılan yükleme animasyonudur.
+- **`src/main.py`:** Uygulamanın **ana kaynak kodudur**; event döngülerini, arayüz bileşenlerini ve sistem otomasyon mantığını içerir.
+- **`.gitignore`:** **Git** versiyon kontrol sistemine dahil edilmeyecek geçici ve derleme çıktılarını tanımlar.
+- **`build.bat`:** **PyInstaller** kullanarak projeyi tek tıkla tek dosyalı **.exe** haline getiren **Otomatik Derleme Betiği'dir.**
+- **`LICENSE`:** Projenin kullanım haklarını belirleyen resmi **MIT Lisansı** metnidir.
+- **`README.md`:** Projenin tanıtımını, kurulum adımlarını, kullanım talimatlarını ve teknik detaylarını içeren **ana dokümantasyon dosyasıdır.**
+- **`THIRD_PARTY_LICENSES.md`:** Projede kullanılan **üçüncü taraf kütüphanelerin** bağımlılık ağacı ve lisans detaylarıdır.
+- **`requirements.txt`:** Projenin çalışabilmesi için gerekli bağımlı **Python kütüphanelerinin** listesidir.
 
 
 
