@@ -43,3 +43,12 @@ venv.bak/
 *.swp
 *.swo
 *~
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
