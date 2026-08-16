@@ -169,7 +169,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 ## 2. Transitive Sub-Dependencies
 
-The following sub-libraries are installed automatically as requirements by PyAutoGUI and PyGetWindow:
+The following sub-libraries are installed automatically as requirements by **PyAutoGUI** and **PyGetWindow**:
 
 - **PyMsgBox (`pymsgbox`):** BSD 3-Clause License (Copyright Al Sweigart)
 - **PyScreeze (`pyscreeze`):** BSD 3-Clause License (Copyright Al Sweigart)
@@ -191,7 +191,7 @@ The following sub-libraries are installed automatically as requirements by PyAut
 - **Copyright:** PyInstaller Development Team
 - **Source:** https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
 
-*PyInstaller is used only as a packaging tool during the build process to produce standalone executable binaries. It is not part of the runtime software execution logic.*
+***PyInstaller** is used only as a packaging tool during the build process to produce standalone executable binaries. It is not part of the runtime software execution logic.*
 
 
 
