@@ -458,6 +458,9 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 | `Volume Up / Down` | Sistem **ses seviyesini** artırır ve azaltır | 7, 14, 16, 20 |
 
 
+**Klavye ve tuş etkileşimleri de yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
+
+
 
 ## 🏛️ Projenin Durumu
 
