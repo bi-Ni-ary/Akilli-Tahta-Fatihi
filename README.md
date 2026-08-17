@@ -77,9 +77,9 @@ Başlıca özellikleri:
 
 ### Zorunlu
 
-- `Windows 10` veya `Windows 11` (`64-bit` önerilir)
+- `Windows 10` veya `Windows 11` *(`64-bit` önerilir)*
 - `Python 3.10` veya üzeri
-- Gerekli `Python` paketleri (`requirements.txt`)
+- Gerekli **Python** paketleri (`requirements.txt`)
 
 
 ### Opsiyonel
