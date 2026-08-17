@@ -1,6 +1,6 @@
 # 🖥️ Akilli-Tahta-Fatihi
 
-> 📌 README Language: Turkish/Türkçe 🇹🇷
+> **📌 README Language:** Turkish/Türkçe 🇹🇷
 
 &nbsp;
 
@@ -17,7 +17,7 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 
 ## ⚠️ Uyarı
 
-**Bu proje kendiliğinden durmaz, bazı sistem etkileşimleri gerçekleştirebilir ve kullanıcı deneyimini değiştirebilecek davranışlar içerebilir.**
+**Bu proje bazı sistem etkileşimleri gerçekleştirebilir, kullanıcı deneyimini değiştirebilecek davranışlar içerebilir ve çalıştırıldıktan sonra kendiliğinden durmaz.**
 
 - Yalnızca size ait veya kullanım izniniz olan cihazlarda çalıştırın.
 - Test amacıyla güvenli ortamlarda kullanın.
@@ -32,12 +32,12 @@ Bu proje eski okul günlerinden kalma bir deneydir. İlk fikri, davranışları 
 Bu proje herhangi bir kullanıcı verisi **toplamaz**, **kaydetmez**
 ve herhangi bir uzak sunucuya **göndermez.**
 
-Programın normal çalışma mantığında herhangi bir ağ
-iletişimi **bulunmamaktadır.**
+Programın normal çalışma mantığında herhangi bir **ağ
+iletişimi bulunmamaktadır.**
 
 Bazı eventler kullanıcı deneyimi amacıyla internet
 tarayıcısını açabilir. Bu durumda internet erişimi,
-yalnızca ilgili event tetiklendiğinde `Google` ve `YouTube`
+yalnızca ilgili event tetiklendiğinde **Google** ve **YouTube**
 gibi servisleri varsayılan tarayıcı üzerinden açmak için
 kullanılır.
 
@@ -55,7 +55,7 @@ kodda belirtilen event davranışlarıyla sınırlıdır.**
 
 ## ✨ Genel Özellikler
 
-Bu proje, **Windows ortamında** çeşitli sistem etkileşimleri gerçekleştirebilen deneysel bir otomasyon yazılımıdır.
+Bu proje, **Windows ortamında** çeşitli sistem etkileşimleri gerçekleştirebilen **deneysel bir otomasyon yazılımıdır.**
 
 
 Başlıca özellikleri:
@@ -84,7 +84,7 @@ Başlıca özellikleri:
 
 ### Opsiyonel
 - `Git` *(Projeyi klonlamak için)*
-- `PyInstaller` *(Yalnızca `.exe` oluşturmak için)*
+- `PyInstaller` *(`.exe` oluşturmak için)*
 
 
 
@@ -143,7 +143,8 @@ Kurulumu tamamladıktan sonra `src/main.py` dosyasını çalıştırın:
 python src/main.py
 ```
 
-> Daha fazla etki için **dikkatli olmak şartıyla** programı aynı anda birden fazla kez de çalıştırabilirsiniz.
+
+> 💡 Daha fazla etki için **dikkatli olmak şartıyla** programı aynı anda birden fazla kez de çalıştırabilirsiniz.
 
 
 
@@ -161,7 +162,7 @@ python src/main.py
 
 ### Terminal Yöntemi (Alternatif)
 
-Program **terminal** üzerinden `.py` formatında çalıştırıldıysa:
+Program, **terminal** üzerinden **`.py` formatında** çalıştırıldıysa:
 - `CTRL + C` ile **işlemi sonlandırabilir** veya **terminali kapatabilirsiniz.**
 
 
@@ -195,7 +196,7 @@ Akilli-Tahta-Fatihi/
     - **`loading.gif`:** **Event 20**'de kullanılan yükleme animasyonudur.
 - **`src/main.py`:** Uygulamanın **ana kaynak kodudur**; event döngülerini, arayüz bileşenlerini ve sistem otomasyon mantığını içerir.
 - **`.gitignore`:** **Git** versiyon kontrol sistemine dahil edilmeyecek geçici ve derleme çıktılarını tanımlar.
-- **`build.bat`:** **PyInstaller** kullanarak projeyi tek tıkla tek dosyalı **.exe** haline getiren **Otomatik Derleme Betiği'dir.**
+- **`build.bat`:** **PyInstaller** kullanarak projeyi tek tıkla tek dosyalı **.exe** haline getiren **otomatik derleme betiğidir.**
 - **`LICENSE`:** Projenin kullanım haklarını belirleyen resmi **MIT Lisansı** metnidir.
 - **`README.md`:** Projenin tanıtımını, kurulum adımlarını, kullanım talimatlarını ve teknik detaylarını içeren **ana dokümantasyon dosyasıdır.**
 - **`THIRD_PARTY_LICENSES.md`:** Projede kullanılan **üçüncü taraf kütüphanelerin** bağımlılık ağacı ve lisans detaylarıdır.
@@ -288,14 +289,22 @@ Akilli-Tahta-Fatihi/
 
 ## 📦 EXE Oluşturma (PyInstaller)
 
-Projeyi **Windows** üzerinde çalıştırılabilir tek bir `.exe` dosyasına dönüştürmek için **iki farklı yöntem** kullanabilirsiniz. Oluşturulan **EXE** dosyası da **yalnızca test ortamında veya izin verilen cihazlarda kullanılmalıdır.**
+Projeyi **Windows** üzerinde çalıştırılabilir tek bir `.exe` dosyasına dönüştürmek için **iki farklı yöntem** kullanabilirsiniz. 
+
+> **⚠ Hatırlatma:**
+Oluşturulan **EXE** dosyası da **yalnızca test ortamında veya izin verilen cihazlarda kullanılmalıdır.**
+
+> **ℹ️ Teknik Not:**
+*PyInstaller*, kodu C/C++ gibi makine diline **derlemez**; Python 
+yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda 
+çalışabilmesi için **tek bir pakete toplar** (bundling).
 
 
-### 1. Tek Tıkla Otomatik Oluşturma
+### A. Otomatik Oluşturma
 
-Proje kök dizininde bulunan `build.bat` betiğini çalıştırmanız yeterlidir:
+Proje kök dizininde bulunan **`build.bat` betiğini** çalıştırmanız yeterlidir:
 
-1. `build.bat` dosyasına çift tıklayın veya terminalden çalıştırın:
+1. `build.bat` dosyasına **çift tıklayın** veya **terminalden çalıştırın:**
 ```cmd
 build.bat
 ```
@@ -303,7 +312,7 @@ build.bat
 3. Derleme tamamlandığında hazırlanan **EXE** dosyası `dist/Akilli-Tahta-Fatihi.exe` konumunda yer alacaktır.
 
 
-### 2. Manuel Şekilde Oluşturma
+### B. Manuel Oluşturma
 
 İsterseniz **PyInstaller** komutunu doğrudan terminal üzerinden kendiniz de çalıştırabilirsiniz:
 
@@ -336,12 +345,6 @@ src/main.py
 
 Oluşturulan **EXE** dosyası: `dist/Akilli-Tahta-Fatihi.exe`
 
-
-> **ℹ️ Teknik Not:**
-*PyInstaller*, kodu C/C++ gibi makine diline **derlemez**; Python 
-yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda 
-çalışabilmesi için **tek bir pakete toplar** (bundling).
-
 &nbsp;
 
 ### Komut Açıklamaları
@@ -354,22 +357,20 @@ yorumlayıcısını ve tüm kütüphaneleri Python kurulu olmayan cihazlarda
 | `--windowed` | Konsol penceresi açmadan çalıştırır |
 | `--name` | Oluşturulacak `.exe` dosyasının dosya adını belirler, **istenirse farklı ad verilebilir** |
 | `--hidden-import` | `PyInstaller`'ın otomatik algılayamadığı paketleri dahil eder |
-| `--add-data` | Harici dosyaları *(ör. GIF vb.*) `EXE` içine ekler |
+| `--add-data` | Harici dosyaları *(ör. GIF vb.)* `EXE` içine ekler |
 | `src/main.py` | Ana `Python` dosyasını belirtir |
 
 
-### İpuçları ve Özelleştirme
+### Özelleştirme İpuçları (Opsiyonel)
 
 - **Dosya Adı:** `--name Akilli-Tahta-Fatihi` parametresindeki ismi değiştirerek çıktı dosyanızın **adını belirleyebilirsiniz.**
 - **İkon:** `--icon "<ikon-dosyasinin-yolu.ico>"` parametresini kullanarak çıktı dosyasına bir **ikon atayabilirsiniz.**
-
-Bu **dosya adı** ve **ikon** işlemleri **tamamen opsiyoneldir.**
 
 
 
 ## 🧠 Çalışma Mantığı
 
-- Proje, rastgele seçilen olaylar (event) üzerine kurulu deneysel bir davranış sistemine sahiptir.
+- Proje, rastgele seçilen **olaylar (event)** üzerine kurulu deneysel bir davranış sistemine sahiptir.
 
 - Program belirli aralıklarla bir event seçer ve her eventin seçilme olasılığı `genome` adı verilen listeler üzerinden belirlenir.
 
@@ -418,7 +419,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
 | Event ID | Risk Seviyesi | Açıklama |
 |:---:|:---:|:---|
-| 0 | 🟢 | Hiçbir işlem yapmayan **boş** event |
+| 0 | 🟢 | Hiçbir işlem yapmayan **boş event** |
 | 1 | 🟢 | `Windows Defender`'ı açma |
 | 2 | 🟠 | **Çok sayıda** `Not Defteri` penceresi açma |
 | 3 | 🟠 | **Çok sayıda** `Hesap Makinesi` penceresi açma |
@@ -441,7 +442,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 | 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** *(animasyon için `assets/loading.gif` dosyası kullanılır)* |
 | 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme **(`Hayır` seçilirse bilgisayar kapanır)** | 
 | 22 | 🔴 | `Windows oturumu`nu kapatma |
-| 23 | 🟢 | `>_ Ni` penceresi açma |
+| 23 | 🟢 | `>_ Ni` yazan **imza penceresi** açma |
 
 
 **Riskli eventler yalnızca test ortamında ve izin verilen cihazlarda kullanılmalıdır.**
@@ -449,7 +450,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 
 ### ⌨️ Klavye Kısayolları ve Tuşlar
 
-> **Klavye kısayolu** ve **medya tuşu** etkileşimleri için `pyautogui.hotkey()` fonksiyonu kullanılmıştır.
+> **ℹ️ Klavye kısayolu** ve **medya tuşu** etkileşimleri için `pyautogui.hotkey()` fonksiyonu kullanılmıştır.
 
 | Kısayol / Tuş | İşlev | Event ID |
 |:---:|:---|:---|
