@@ -249,7 +249,7 @@ Akilli-Tahta-Fatihi/
     </td>
     <td width="50%" valign="top">
       <b>Risk Seviyesi:</b> 🔴 Kritik<br><br>
-      Kullanıcıya kapatma onayı sorar; <b>"Hayır" seçeneği tıklandığında bilgisayarı kapatır,</b> "Evet" seçildiğinde hiçbir şey yapmaz.
+      Kullanıcıya kapatma onayı sorar; <b>"Hayır" seçeneğine tıklandığında bilgisayarı kapatır,</b> "Evet" seçeneğinde ise hiçbir şey yapmaz.
     </td>
   </tr>
 
@@ -314,7 +314,7 @@ build.bat
 
 ### B. Manuel Oluşturma
 
-İsterseniz **PyInstaller** komutunu doğrudan terminal üzerinden kendiniz de çalıştırabilirsiniz:
+İsterseniz **PyInstaller** komutunu doğrudan **terminal** üzerinden kendiniz de çalıştırabilirsiniz:
 
 #### PyInstaller kurulumu:
 
@@ -440,7 +440,7 @@ Toplamda `24` farklı event bulunmaktadır. **(ID: 0-23)**
 | 18 | 🟡 | Ekran sürücüsünü yenileyerek **kısa süreli görüntü kesintisi** oluşturma |
 | 19 | 🟡 | `Başlat menüsü`nü sürekli açıp kapatma |
 | 20 | 🔴 | `Windows Güncelleştirme` ekranını taklit etme ve **yeniden başlatma** *(animasyon için `assets/loading.gif` dosyası kullanılır)* |
-| 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme **(`Hayır` seçilirse bilgisayar kapanır)** | 
+| 21 | 🔴 | **Seçime göre ters çalışan** kapatma onayı penceresi gösterme **(`Hayır` seçilirse bilgisayar kapatılır)** | 
 | 22 | 🔴 | `Windows oturumu`nu kapatma |
 | 23 | 🟢 | `>_ Ni` yazan **imza penceresi** açma |
 
